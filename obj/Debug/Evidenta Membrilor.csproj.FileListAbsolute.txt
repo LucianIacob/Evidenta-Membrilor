@@ -1,0 +1,9 @@
+C:\Users\liacob\Desktop\Evidenta Membrilor\bin\Debug\Evidenta Membrilor.exe
+C:\Users\liacob\Desktop\Evidenta Membrilor\bin\Debug\Evidenta Membrilor.pdb
+C:\Users\liacob\Desktop\Evidenta Membrilor\bin\Debug\System.Data.SQLite.dll
+C:\Users\liacob\Desktop\Evidenta Membrilor\obj\Debug\Evidenta Membrilor.csprojResolveAssemblyReference.cache
+C:\Users\liacob\Desktop\Evidenta Membrilor\obj\Debug\Evidenta_Membrilor.Form1.resources
+C:\Users\liacob\Desktop\Evidenta Membrilor\obj\Debug\Evidenta_Membrilor.Properties.Resources.resources
+C:\Users\liacob\Desktop\Evidenta Membrilor\obj\Debug\Evidenta Membrilor.csproj.GenerateResource.Cache
+C:\Users\liacob\Desktop\Evidenta Membrilor\obj\Debug\Evidenta Membrilor.exe
+C:\Users\liacob\Desktop\Evidenta Membrilor\obj\Debug\Evidenta Membrilor.pdb
