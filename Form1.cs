@@ -1,10 +1,4 @@
-﻿// Decompiled with JetBrains decompiler
-// Type: Evidenta_Membrilor.Form1
-// Assembly: Evidenta Membrilor, Version=2.0.6229.22937, Culture=neutral, PublicKeyToken=null
-// MVID: 60AE883C-445C-4F93-ADAD-DEA6593052EE
-// Assembly location: C:\Users\liacob\Dropbox\Betel\Evidenta membrilor\Evidenta Membrilor.exe
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -54,12 +48,10 @@ namespace Evidenta_Membrilor
         private Label label18;
         private TextBox starea_civila_locul_nasterii;
         private Label label17;
-        private DateTimePicker starea_civila_data_nasterii;
         private Label label10;
         private GroupBox groupBox3;
         private TextBox primire_membru_expl;
         private Label label26;
-        private DateTimePicker primire_membru_data;
         private Label label25;
         private ComboBox primire_membru_modalitatea;
         private GroupBox groupBox4;
@@ -67,87 +59,52 @@ namespace Evidenta_Membrilor
         private Label label39;
         private TextBox acte_cult_inmormantare_biserica;
         private Label label40;
-        private DateTimePicker acte_cult_inmormantare_data;
         private TextBox acte_cult_ordinare_pastor;
         private Label label36;
         private TextBox acte_cult_ordinare_biserica;
         private Label label37;
-        private DateTimePicker acte_cult_ordinare_data;
         private TextBox acte_cult_casatoria_pastor;
         private Label label33;
         private TextBox acte_cult_casatoria_biserica;
         private Label label34;
-        private DateTimePicker acte_cult_casatoria_data;
         private TextBox acte_cult_botez_pastor;
         private Label label30;
         private TextBox acte_cult_botez_biserica;
         private Label label31;
-        private DateTimePicker acte_cult_botez_data;
         private TextBox acte_cult_binec_pastor;
         private Label label28;
         private TextBox acte_cult_binec_biserica;
         private Label label29;
-        private DateTimePicker acte_cult_binec_data;
         private GroupBox groupBox5;
         private TextBox familia_copil10_nr_fisa;
         private ComboBox familia_copil10_stare_civila;
-        private DateTimePicker familia_copil10_data_botez;
-        private DateTimePicker familia_copil10_data_binec;
-        private DateTimePicker familia_copil10_data_nasterii;
         private TextBox familia_copil10_nume;
         private TextBox familia_copil9_nr_fisa;
         private ComboBox familia_copil9_stare_civila;
-        private DateTimePicker familia_copil9_data_botez;
-        private DateTimePicker familia_copil9_data_binec;
-        private DateTimePicker familia_copil9_data_nasterii;
         private TextBox familia_copil9_nume;
         private TextBox familia_copil8_nr_fisa;
         private ComboBox familia_copil8_stare_civila;
-        private DateTimePicker familia_copil8_data_botez;
-        private DateTimePicker familia_copil8_data_binec;
-        private DateTimePicker familia_copil8_data_nasterii;
         private TextBox familia_copil8_nume;
         private TextBox familia_copil7_nr_fisa;
         private ComboBox familia_copil7_stare_civila;
-        private DateTimePicker familia_copil7_data_botez;
-        private DateTimePicker familia_copil7_data_binec;
-        private DateTimePicker familia_copil7_data_nasterii;
         private TextBox familia_copil7_nume;
         private TextBox familia_copil6_nr_fisa;
         private ComboBox familia_copil6_stare_civila;
-        private DateTimePicker familia_copil6_data_botez;
-        private DateTimePicker familia_copil6_data_binec;
-        private DateTimePicker familia_copil6_data_nasterii;
         private TextBox familia_copil6_nume;
         private TextBox familia_copil5_nr_fisa;
         private ComboBox familia_copil5_stare_civila;
-        private DateTimePicker familia_copil5_data_botez;
-        private DateTimePicker familia_copil5_data_binec;
-        private DateTimePicker familia_copil5_data_nasterii;
         private TextBox familia_copil5_nume;
         private TextBox familia_copil4_nr_fisa;
         private ComboBox familia_copil4_stare_civila;
-        private DateTimePicker familia_copil4_data_botez;
-        private DateTimePicker familia_copil4_data_binec;
-        private DateTimePicker familia_copil4_data_nasterii;
         private TextBox familia_copil4_nume;
         private TextBox familia_copil3_nr_fisa;
         private ComboBox familia_copil3_stare_civila;
-        private DateTimePicker familia_copil3_data_botez;
-        private DateTimePicker familia_copil3_data_binec;
-        private DateTimePicker familia_copil3_data_nasterii;
         private TextBox familia_copil3_nume;
         private TextBox familia_copil2_nr_fisa;
         private ComboBox familia_copil2_stare_civila;
-        private DateTimePicker familia_copil2_data_botez;
-        private DateTimePicker familia_copil2_data_binec;
-        private DateTimePicker familia_copil2_data_nasterii;
         private TextBox familia_copil2_nume;
         private TextBox familia_copil1_nr_fisa;
         private ComboBox familia_copil1_stare_civila;
-        private DateTimePicker familia_copil1_data_botez;
-        private DateTimePicker familia_copil1_data_binec;
-        private DateTimePicker familia_copil1_data_nasterii;
         private Label label54;
         private Label label53;
         private Label label52;
@@ -159,7 +116,6 @@ namespace Evidenta_Membrilor
         private Label label46;
         private TextBox familia_sotul_localitate;
         private Label label45;
-        private DateTimePicker familia_sotul_data_nasterii;
         private Label label44;
         private TextBox familia_sotul_numar_fisa;
         private Label label43;
@@ -172,7 +128,6 @@ namespace Evidenta_Membrilor
         private GroupBox groupBox6;
         private TextBox iesire_evidenta_expl;
         private Label label32;
-        private DateTimePicker iesire_evidenta_data;
         private Label label27;
         private Label label12;
         private ComboBox iesire_evidenta_motiv;
@@ -197,7 +152,6 @@ namespace Evidenta_Membrilor
         private ColumnHeader nume;
         private ColumnHeader prenume;
         private Button button1;
-        private DateTimePicker date_data_inscrierii;
         private TextBox textBox1;
         private Button button2;
         private Label label8;
@@ -210,162 +164,197 @@ namespace Evidenta_Membrilor
         private Label label47;
         private Label label48;
         private LinkLabel linkLabel1;
+        private TextBox date_data_inscrierii;
+        private TextBox starea_civila_data_nasterii;
+        private TextBox primire_membru_data;
+        private TextBox acte_cult_inmormantare_data;
+        private TextBox acte_cult_ordinare_data;
+        private TextBox acte_cult_casatoria_data;
+        private TextBox acte_cult_botez_data;
+        private TextBox acte_cult_binec_data;
+        private TextBox familia_copil10_data_botez;
+        private TextBox familia_copil10_data_binec;
+        private TextBox familia_copil10_data_nasterii;
+        private TextBox familia_copil9_data_botez;
+        private TextBox familia_copil9_data_binec;
+        private TextBox familia_copil9_data_nasterii;
+        private TextBox familia_copil8_data_botez;
+        private TextBox familia_copil8_data_binec;
+        private TextBox familia_copil8_data_nasterii;
+        private TextBox familia_copil7_data_botez;
+        private TextBox familia_copil7_data_binec;
+        private TextBox familia_copil7_data_nasterii;
+        private TextBox familia_copil6_data_botez;
+        private TextBox familia_copil6_data_binec;
+        private TextBox familia_copil6_data_nasterii;
+        private TextBox familia_copil5_data_botez;
+        private TextBox familia_copil5_data_binec;
+        private TextBox familia_copil5_data_nasterii;
+        private TextBox familia_copil4_data_botez;
+        private TextBox familia_copil4_data_binec;
+        private TextBox familia_copil4_data_nasterii;
+        private TextBox familia_copil3_data_botez;
+        private TextBox familia_copil3_data_binec;
+        private TextBox familia_copil3_data_nasterii;
+        private TextBox familia_copil2_data_botez;
+        private TextBox familia_copil2_data_binec;
+        private TextBox familia_copil2_data_nasterii;
+        private TextBox familia_copil1_data_botez;
+        private TextBox familia_copil1_data_binec;
+        private TextBox familia_copil1_data_nasterii;
+        private TextBox familia_sotul_data_nasterii;
+        private TextBox iesire_evidenta_data;
         private Label label55;
 
         public Form1()
         {
-            this.InitializeComponent();
-            this.initDataBase();
-            this.populateMembersList("");
-            this.clearInputs();
+            InitializeComponent();
+            initDataBase();
+            populateMembersList("");
+            clearInputs();
         }
 
         private void populateMembersList(string query)
         {
-            this.lstMembers.View = View.Details;
-            this.lstMembers.GridLines = true;
-            this.lstMembers.FullRowSelect = true;
+            lstMembers.View = View.Details;
+            lstMembers.GridLines = true;
+            lstMembers.FullRowSelect = true;
             string[] items = new string[3];
-            this.lstMembers.Items.Clear();
-            foreach (DisplayedMember allMember in this.tablesManager.getAllMembers(query))
+            lstMembers.Items.Clear();
+            foreach (DisplayedMember allMember in tablesManager.getAllMembers(query))
             {
                 items[0] = allMember.NrFisa.ToString();
                 items[1] = allMember.Nume;
                 items[2] = allMember.Prenume;
-                this.lstMembers.Items.Add(new ListViewItem(items)
+                lstMembers.Items.Add(new ListViewItem(items)
                 {
                     BackColor = ColorTranslator.FromHtml("#DEDEDE")
                 });
             }
-            this.updateStats();
+            updateStats();
         }
 
         private void updateStats()
         {
-            this.memberCount.Text = this.tablesManager.getMembersCount().ToString();
-            this.kidsCount.Text = this.tablesManager.getChildrenCount().ToString();
+            memberCount.Text = tablesManager.getMembersCount().ToString();
+            kidsCount.Text = tablesManager.getChildrenCount().ToString();
         }
 
         private void initDataBase()
         {
-            this.tablesManager = new TablesManager();
-            this.tablesManager.createDataBaseFile();
-            this.tablesManager.createTables();
+            tablesManager = new TablesManager();
+            tablesManager.createDataBaseFile();
+            tablesManager.createTables();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
+            WindowState = FormWindowState.Maximized;
         }
 
         private void btn_save_Click(object sender, EventArgs e)
         {
             int result;
-            if (!int.TryParse(this.pk_numarul_fisa_personala.Text, out result))
+            if (!int.TryParse(pk_numarul_fisa_personala.Text, out result))
             {
                 int num1 = (int)MessageBox.Show("Fisa personala a membrului trebuie sa fie un numar natural!\nDatele nu au putut fi salvate.", "Date incorecte!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             else
             {
-                int id1 = int.Parse(this.pk_numarul_fisa_personala.Text);
-                if (this.tablesManager.idAlreadyInDataBase(id1))
+                int id1 = int.Parse(pk_numarul_fisa_personala.Text);
+                if (tablesManager.idAlreadyInDataBase(id1))
                 {
-                    int num2 = (int)MessageBox.Show("Numarul fisei a mai fost folosit!\nDatele nu au putut fi salvate.", "Date incorecte!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBox.Show("Numarul fisei a mai fost folosit!\nDatele nu au putut fi salvate.", "Date incorecte!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 }
                 else
                 {
-                    TablesManager tablesManager1 = this.tablesManager;
+                    TablesManager tablesManager1 = tablesManager;
                     int id2 = id1;
-                    string text1 = this.date_personale_nume.Text;
-                    string text2 = this.date_personale_prenume.Text;
-                    string text3 = this.date_personale_localitatea.Text;
-                    string text4 = this.date_personale_strada.Text;
-                    string text5 = this.date_personale_numarul.Text;
-                    string text6 = this.date_personale_judet.Text;
-                    string text7 = this.date_personale_telefon.Text;
-                    string text8 = this.date_personale_studii.Text;
-                    string calitatea = this.date_personale_calitatea_la_inscriere.SelectedItem.ToString();
-                    DateTime dateTime = this.date_data_inscrierii.Value;
-                    string data_inscrierii = dateTime.ToString("dd.MM.yyyy");
-                    string str1 = tablesManager1.insertDatePersonale(id2, text1, text2, text3, text4, text5, text6, text7, text8, calitatea, data_inscrierii);
+                    string text1 = date_personale_nume.Text;
+                    string text2 = date_personale_prenume.Text;
+                    string text3 = date_personale_localitatea.Text;
+                    string text4 = date_personale_strada.Text;
+                    string text5 = date_personale_numarul.Text;
+                    string text6 = date_personale_judet.Text;
+                    string text7 = date_personale_telefon.Text;
+                    string text8 = date_personale_studii.Text;
+                    string calitatea = date_personale_calitatea_la_inscriere.SelectedItem.ToString();
+                    string dateTime = date_data_inscrierii.Text;
+                    string str1 = tablesManager1.insertDatePersonale(id2, text1, text2, text3, text4, text5, text6, text7, text8, calitatea, dateTime);
                     if (!str1.Equals(Status.OK))
                     {
-                        int num3 = (int)MessageBox.Show(str1 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                        MessageBox.Show(str1 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                     }
                     else
                     {
-                        TablesManager tablesManager2 = this.tablesManager;
+                        TablesManager tablesManager2 = tablesManager;
                         int id3 = id1;
-                        dateTime = this.starea_civila_data_nasterii.Value;
-                        string dataNasterii1 = dateTime.ToString("dd.MM.yyyy");
-                        string text9 = this.starea_civila_locul_nasterii.Text;
-                        string text10 = this.starea_civila_cnp.Text;
-                        string text11 = this.starea_civila_fiul_lui.Text;
-                        string text12 = this.starea_civila_fiul_si_al.Text;
-                        string situatia = this.starea_civila_situatia_la_inscriere.SelectedItem.ToString();
-                        string text13 = this.starea_civila_situatia_la_inscriere_expl.Text;
-                        string modificari = this.starea_civila_modificari_ulterioare.SelectedItem.ToString();
-                        string text14 = this.starea_civila_modificari_ulterioare_expl.Text;
+                        string dataNasterii1 = starea_civila_data_nasterii.Text;
+                        string text9 = starea_civila_locul_nasterii.Text;
+                        string text10 = starea_civila_cnp.Text;
+                        string text11 = starea_civila_fiul_lui.Text;
+                        string text12 = starea_civila_fiul_si_al.Text;
+                        string situatia = starea_civila_situatia_la_inscriere.SelectedItem.ToString();
+                        string text13 = starea_civila_situatia_la_inscriere_expl.Text;
+                        string modificari = starea_civila_modificari_ulterioare.SelectedItem.ToString();
+                        string text14 = starea_civila_modificari_ulterioare_expl.Text;
                         string str2 = tablesManager2.insertStareaCivila(id3, dataNasterii1, text9, text10, text11, text12, situatia, text13, modificari, text14);
                         if (!str2.Equals(Status.OK))
                         {
-                            int num4 = (int)MessageBox.Show(str2 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                            MessageBox.Show(str2 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                         }
                         else
                         {
-                            TablesManager tablesManager3 = this.tablesManager;
+                            TablesManager tablesManager3 = tablesManager;
                             int id4 = id1;
-                            string modalitatea = this.primire_membru_modalitatea.SelectedItem.ToString();
-                            dateTime = this.primire_membru_data.Value;
-                            string data1 = dateTime.ToString("dd.MM.yyyy");
-                            string text15 = this.primire_membru_expl.Text;
+                            string modalitatea = primire_membru_modalitatea.SelectedItem.ToString();
+                            string data1 = primire_membru_data.Text;
+                            string text15 = primire_membru_expl.Text;
                             string str3 = tablesManager3.insertPrimireMembru(id4, modalitatea, data1, text15);
                             if (!str3.Equals(Status.OK))
                             {
-                                int num5 = (int)MessageBox.Show(str3 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                                MessageBox.Show(str3 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                             }
                             else
                             {
-                                string str4 = this.insertActeCultInDataBase(id1);
+                                string str4 = insertActeCultInDataBase(id1);
                                 if (!str4.Equals(Status.OK))
                                 {
-                                    int num6 = (int)MessageBox.Show(str4 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                                    MessageBox.Show(str4 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                                 }
                                 else
                                 {
-                                    TablesManager tablesManager4 = this.tablesManager;
+                                    TablesManager tablesManager4 = tablesManager;
                                     int id5 = id1;
-                                    string text16 = this.familia_sotul.Text;
-                                    string text17 = this.familia_sotul_numar_fisa.Text;
-                                    dateTime = this.familia_sotul_data_nasterii.Value;
-                                    string dataNasterii2 = dateTime.ToString("dd.MM.yyyy");
-                                    string text18 = this.familia_sotul_localitate.Text;
-                                    string text19 = this.familia_sotul_religie.Text;
+                                    string text16 = familia_sotul.Text;
+                                    string text17 = familia_sotul_numar_fisa.Text;
+                                    string dataNasterii2 = familia_sotul_data_nasterii.Text;
+                                    string text18 = familia_sotul_localitate.Text;
+                                    string text19 = familia_sotul_religie.Text;
                                     string str5 = tablesManager4.insertPartener(id5, text16, text17, dataNasterii2, text18, text19);
                                     if (!str5.Equals(Status.OK))
                                     {
-                                        int num7 = (int)MessageBox.Show(str5 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                                        MessageBox.Show(str5 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                                     }
                                     else
                                     {
-                                        this.insertCopiiInDataBase(id1);
-                                        TablesManager tablesManager5 = this.tablesManager;
+                                        insertCopiiInDataBase(id1);
+                                        TablesManager tablesManager5 = tablesManager;
                                         int id6 = id1;
-                                        string motiv = this.iesire_evidenta_motiv.SelectedItem.ToString();
-                                        dateTime = this.iesire_evidenta_data.Value;
-                                        string data2 = dateTime.ToString("dd.MM.yyyy");
-                                        string text20 = this.iesire_evidenta_expl.Text;
+                                        string motiv = iesire_evidenta_motiv.SelectedItem.ToString();
+                                        string data2 = iesire_evidenta_data.Text;
+                                        string text20 = iesire_evidenta_expl.Text;
                                         string str6 = tablesManager5.insertIesireEvidenta(id6, motiv, data2, text20);
                                         if (!str6.Equals(Status.OK))
                                         {
-                                            int num8 = (int)MessageBox.Show(str6 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                                            MessageBox.Show(str6 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                                         }
                                         else
                                         {
-                                            this.populateMembersList("");
-                                            this.textBox1.Clear();
-                                            this.clearInputs();
-                                            int num9 = (int)MessageBox.Show("Fisa cu numarul " + (object)id1 + " a fost salvata.", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                                            populateMembersList("");
+                                            textBox1.Clear();
+                                            clearInputs();
+                                            MessageBox.Show("Fisa cu numarul " + (object)id1 + " a fost salvata.", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                                         }
                                     }
                                 }
@@ -378,127 +367,127 @@ namespace Evidenta_Membrilor
 
         private void clearInputs()
         {
-            this.pk_numarul_fisa_personala.Clear();
-            this.date_data_inscrierii.Value = DateTime.Today;
-            this.date_personale_nume.Clear();
-            this.date_personale_prenume.Clear();
-            this.date_personale_localitatea.Clear();
-            this.date_personale_strada.Clear();
-            this.date_personale_numarul.Clear();
-            this.date_personale_judet.Clear();
-            this.date_personale_telefon.Clear();
-            this.date_personale_studii.Clear();
-            this.date_personale_calitatea_la_inscriere.SelectedIndex = 0;
-            this.starea_civila_data_nasterii.Value = DateTime.Today;
-            this.starea_civila_locul_nasterii.Clear();
-            this.starea_civila_cnp.Clear();
-            this.starea_civila_fiul_lui.Clear();
-            this.starea_civila_fiul_si_al.Clear();
-            this.starea_civila_situatia_la_inscriere.SelectedIndex = 0;
-            this.starea_civila_situatia_la_inscriere_expl.Clear();
-            this.starea_civila_modificari_ulterioare.SelectedIndex = 0;
-            this.starea_civila_modificari_ulterioare_expl.Clear();
-            this.primire_membru_modalitatea.SelectedIndex = 0;
-            this.primire_membru_data.Value = DateTime.Today;
-            this.primire_membru_expl.Clear();
-            this.acte_cult_binec.Checked = false;
-            this.acte_cult_binec_data.Value = DateTime.Today;
-            this.acte_cult_binec_biserica.Clear();
-            this.acte_cult_binec_pastor.Clear();
-            this.acte_cult_botez.Checked = false;
-            this.acte_cult_botez_data.Value = DateTime.Today;
-            this.acte_cult_botez_biserica.Clear();
-            this.acte_cult_botez_pastor.Clear();
-            this.acte_cult_casatoria.Checked = false;
-            this.acte_cult_casatoria_data.Value = DateTime.Today;
-            this.acte_cult_casatoria_biserica.Clear();
-            this.acte_cult_casatoria_pastor.Clear();
-            this.acte_cult_ordinare.Checked = false;
-            this.acte_cult_ordinare_data.Value = DateTime.Today;
-            this.acte_cult_ordinare_biserica.Clear();
-            this.acte_cult_ordinare_pastor.Clear();
-            this.acte_cult_inmormantare.Checked = false;
-            this.acte_cult_inmormantare_data.Value = DateTime.Today;
-            this.acte_cult_inmormantare_biserica.Clear();
-            this.acte_cult_inmormantare_pastor.Clear();
-            this.familia_sotul.Clear();
-            this.familia_sotul_numar_fisa.Clear();
-            this.familia_sotul_data_nasterii.Value = DateTime.Today;
-            this.familia_sotul_localitate.Clear();
-            this.familia_sotul_religie.Clear();
-            this.familia_copil1.Checked = false;
-            this.familia_copil1_nume.Clear();
-            this.familia_copil1_data_nasterii.Value = DateTime.Today;
-            this.familia_copil1_data_binec.Value = DateTime.Today;
-            this.familia_copil1_data_botez.Value = DateTime.Today;
-            this.familia_copil1_stare_civila.SelectedIndex = 0;
-            this.familia_copil1_nr_fisa.Clear();
-            this.familia_copil2.Checked = false;
-            this.familia_copil2_nume.Clear();
-            this.familia_copil2_data_nasterii.Value = DateTime.Today;
-            this.familia_copil2_data_binec.Value = DateTime.Today;
-            this.familia_copil2_data_botez.Value = DateTime.Today;
-            this.familia_copil2_stare_civila.SelectedIndex = 0;
-            this.familia_copil2_nr_fisa.Clear();
-            this.familia_copil3.Checked = false;
-            this.familia_copil3_nume.Clear();
-            this.familia_copil3_data_nasterii.Value = DateTime.Today;
-            this.familia_copil3_data_binec.Value = DateTime.Today;
-            this.familia_copil3_data_botez.Value = DateTime.Today;
-            this.familia_copil3_stare_civila.SelectedIndex = 0;
-            this.familia_copil3_nr_fisa.Clear();
-            this.familia_copil4.Checked = false;
-            this.familia_copil4_nume.Clear();
-            this.familia_copil4_data_nasterii.Value = DateTime.Today;
-            this.familia_copil4_data_binec.Value = DateTime.Today;
-            this.familia_copil4_data_botez.Value = DateTime.Today;
-            this.familia_copil4_stare_civila.SelectedIndex = 0;
-            this.familia_copil4_nr_fisa.Clear();
-            this.familia_copil5.Checked = false;
-            this.familia_copil5_nume.Clear();
-            this.familia_copil5_data_nasterii.Value = DateTime.Today;
-            this.familia_copil5_data_binec.Value = DateTime.Today;
-            this.familia_copil5_data_botez.Value = DateTime.Today;
-            this.familia_copil5_stare_civila.SelectedIndex = 0;
-            this.familia_copil5_nr_fisa.Clear();
-            this.familia_copil6.Checked = false;
-            this.familia_copil6_nume.Clear();
-            this.familia_copil6_data_nasterii.Value = DateTime.Today;
-            this.familia_copil6_data_binec.Value = DateTime.Today;
-            this.familia_copil6_data_botez.Value = DateTime.Today;
-            this.familia_copil6_stare_civila.SelectedIndex = 0;
-            this.familia_copil6_nr_fisa.Clear();
-            this.familia_copil7.Checked = false;
-            this.familia_copil7_nume.Clear();
-            this.familia_copil7_data_nasterii.Value = DateTime.Today;
-            this.familia_copil7_data_binec.Value = DateTime.Today;
-            this.familia_copil7_data_botez.Value = DateTime.Today;
-            this.familia_copil7_stare_civila.SelectedIndex = 0;
-            this.familia_copil7_nr_fisa.Clear();
-            this.familia_copil8.Checked = false;
-            this.familia_copil8_nume.Clear();
-            this.familia_copil8_data_nasterii.Value = DateTime.Today;
-            this.familia_copil8_data_binec.Value = DateTime.Today;
-            this.familia_copil8_data_botez.Value = DateTime.Today;
-            this.familia_copil8_stare_civila.SelectedIndex = 0;
-            this.familia_copil8_nr_fisa.Clear();
-            this.familia_copil9.Checked = false;
-            this.familia_copil9_nume.Clear();
-            this.familia_copil9_data_nasterii.Value = DateTime.Today;
-            this.familia_copil9_data_binec.Value = DateTime.Today;
-            this.familia_copil9_data_botez.Value = DateTime.Today;
-            this.familia_copil9_stare_civila.SelectedIndex = 0;
-            this.familia_copil9_nr_fisa.Clear();
-            this.familia_copil10.Checked = false;
-            this.familia_copil10_nume.Clear();
-            this.familia_copil10_data_nasterii.Value = DateTime.Today;
-            this.familia_copil10_data_binec.Value = DateTime.Today;
-            this.familia_copil10_data_botez.Value = DateTime.Today;
-            this.familia_copil10_stare_civila.SelectedIndex = 0;
-            this.familia_copil10_nr_fisa.Clear();
-            this.iesire_evidenta_motiv.SelectedIndex = 0;
-            this.iesire_evidenta_data.Value = DateTime.Today;
-            this.iesire_evidenta_expl.Clear();
+            pk_numarul_fisa_personala.Clear();
+            date_data_inscrierii.Clear();
+            date_personale_nume.Clear();
+            date_personale_prenume.Clear();
+            date_personale_localitatea.Clear();
+            date_personale_strada.Clear();
+            date_personale_numarul.Clear();
+            date_personale_judet.Clear();
+            date_personale_telefon.Clear();
+            date_personale_studii.Clear();
+            date_personale_calitatea_la_inscriere.SelectedIndex = 0;
+            starea_civila_data_nasterii.Clear();
+            starea_civila_locul_nasterii.Clear();
+            starea_civila_cnp.Clear();
+            starea_civila_fiul_lui.Clear();
+            starea_civila_fiul_si_al.Clear();
+            starea_civila_situatia_la_inscriere.SelectedIndex = 0;
+            starea_civila_situatia_la_inscriere_expl.Clear();
+            starea_civila_modificari_ulterioare.SelectedIndex = 0;
+            starea_civila_modificari_ulterioare_expl.Clear();
+            primire_membru_modalitatea.SelectedIndex = 0;
+            primire_membru_data.Clear();
+            primire_membru_expl.Clear();
+            acte_cult_binec.Checked = false;
+            acte_cult_binec_data.Clear();
+            acte_cult_binec_biserica.Clear();
+            acte_cult_binec_pastor.Clear();
+            acte_cult_botez.Checked = false;
+            acte_cult_botez_data.Clear();
+            acte_cult_botez_biserica.Clear();
+            acte_cult_botez_pastor.Clear();
+            acte_cult_casatoria.Checked = false;
+            acte_cult_casatoria_data.Clear();
+            acte_cult_casatoria_biserica.Clear();
+            acte_cult_casatoria_pastor.Clear();
+            acte_cult_ordinare.Checked = false;
+            acte_cult_ordinare_data.Clear();
+            acte_cult_ordinare_biserica.Clear();
+            acte_cult_ordinare_pastor.Clear();
+            acte_cult_inmormantare.Checked = false;
+            acte_cult_inmormantare_data.Clear();
+            acte_cult_inmormantare_biserica.Clear();
+            acte_cult_inmormantare_pastor.Clear();
+            familia_sotul.Clear();
+            familia_sotul_numar_fisa.Clear();
+            familia_sotul_data_nasterii.Clear();
+            familia_sotul_localitate.Clear();
+            familia_sotul_religie.Clear();
+            familia_copil1.Checked = false;
+            familia_copil1_nume.Clear();
+            familia_copil1_data_nasterii.Clear();
+            familia_copil1_data_binec.Clear();
+            familia_copil1_data_botez.Clear();
+            familia_copil1_stare_civila.SelectedIndex = 0;
+            familia_copil1_nr_fisa.Clear();
+            familia_copil2.Checked = false;
+            familia_copil2_nume.Clear();
+            familia_copil2_data_nasterii.Clear();
+            familia_copil2_data_binec.Clear();
+            familia_copil2_data_botez.Clear();
+            familia_copil2_stare_civila.SelectedIndex = 0;
+            familia_copil2_nr_fisa.Clear();
+            familia_copil3.Checked = false;
+            familia_copil3_nume.Clear();
+            familia_copil3_data_nasterii.Clear();
+            familia_copil3_data_binec.Clear();
+            familia_copil3_data_botez.Clear();
+            familia_copil3_stare_civila.SelectedIndex = 0;
+            familia_copil3_nr_fisa.Clear();
+            familia_copil4.Checked = false;
+            familia_copil4_nume.Clear();
+            familia_copil4_data_nasterii.Clear();
+            familia_copil4_data_binec.Clear();
+            familia_copil4_data_botez.Clear();
+            familia_copil4_stare_civila.SelectedIndex = 0;
+            familia_copil4_nr_fisa.Clear();
+            familia_copil5.Checked = false;
+            familia_copil5_nume.Clear();
+            familia_copil5_data_nasterii.Clear();
+            familia_copil5_data_binec.Clear();
+            familia_copil5_data_botez.Clear();
+            familia_copil5_stare_civila.SelectedIndex = 0;
+            familia_copil5_nr_fisa.Clear();
+            familia_copil6.Checked = false;
+            familia_copil6_nume.Clear();
+            familia_copil6_data_nasterii.Clear();
+            familia_copil6_data_binec.Clear();
+            familia_copil6_data_botez.Clear();
+            familia_copil6_stare_civila.SelectedIndex = 0;
+            familia_copil6_nr_fisa.Clear();
+            familia_copil7.Checked = false;
+            familia_copil7_nume.Clear();
+            familia_copil7_data_nasterii.Clear();
+            familia_copil7_data_binec.Clear();
+            familia_copil7_data_botez.Clear();
+            familia_copil7_stare_civila.SelectedIndex = 0;
+            familia_copil7_nr_fisa.Clear();
+            familia_copil8.Checked = false;
+            familia_copil8_nume.Clear();
+            familia_copil8_data_nasterii.Clear();
+            familia_copil8_data_binec.Clear();
+            familia_copil8_data_botez.Clear();
+            familia_copil8_stare_civila.SelectedIndex = 0;
+            familia_copil8_nr_fisa.Clear();
+            familia_copil9.Checked = false;
+            familia_copil9_nume.Clear();
+            familia_copil9_data_nasterii.Clear();
+            familia_copil9_data_binec.Clear();
+            familia_copil9_data_botez.Clear();
+            familia_copil9_stare_civila.SelectedIndex = 0;
+            familia_copil9_nr_fisa.Clear();
+            familia_copil10.Checked = false;
+            familia_copil10_nume.Clear();
+            familia_copil10_data_nasterii.Clear();
+            familia_copil10_data_binec.Clear();
+            familia_copil10_data_botez.Clear();
+            familia_copil10_stare_civila.SelectedIndex = 0;
+            familia_copil10_nr_fisa.Clear();
+            iesire_evidenta_motiv.SelectedIndex = 0;
+            iesire_evidenta_data.Clear();
+            iesire_evidenta_expl.Clear();
         }
 
         private string insertActeCultInDataBase(int id)
@@ -508,16 +497,16 @@ namespace Evidenta_Membrilor
             string str3 = Status.OK;
             string str4 = Status.OK;
             string str5 = Status.OK;
-            if (this.acte_cult_binec.Checked)
-                str1 = this.tablesManager.insertActCult(id, this.acte_cult_binec.Text, this.acte_cult_binec_data.Value.ToString("dd.MM.yyyy"), this.acte_cult_binec_biserica.Text, this.acte_cult_binec_pastor.Text);
-            if (this.acte_cult_botez.Checked)
-                str2 = this.tablesManager.insertActCult(id, this.acte_cult_botez.Text, this.acte_cult_botez_data.Value.ToString("dd.MM.yyyy"), this.acte_cult_botez_biserica.Text, this.acte_cult_botez_pastor.Text);
-            if (this.acte_cult_casatoria.Checked)
-                str3 = this.tablesManager.insertActCult(id, this.acte_cult_casatoria.Text, this.acte_cult_casatoria_data.Value.ToString("dd.MM.yyyy"), this.acte_cult_casatoria_biserica.Text, this.acte_cult_casatoria_pastor.Text);
-            if (this.acte_cult_inmormantare.Checked)
-                str4 = this.tablesManager.insertActCult(id, this.acte_cult_inmormantare.Text, this.acte_cult_inmormantare_data.Value.ToString("dd.MM.yyyy"), this.acte_cult_inmormantare_biserica.Text, this.acte_cult_inmormantare_pastor.Text);
-            if (this.acte_cult_ordinare.Checked)
-                str5 = this.tablesManager.insertActCult(id, this.acte_cult_ordinare.Text, this.acte_cult_ordinare_data.Value.ToString("dd.MM.yyyy"), this.acte_cult_ordinare_biserica.Text, this.acte_cult_ordinare_pastor.Text);
+            if (acte_cult_binec.Checked)
+                str1 = tablesManager.insertActCult(id, acte_cult_binec.Text, acte_cult_binec_data.Text, acte_cult_binec_biserica.Text, acte_cult_binec_pastor.Text);
+            if (acte_cult_botez.Checked)
+                str2 = tablesManager.insertActCult(id, acte_cult_botez.Text, acte_cult_botez_data.Text, acte_cult_botez_biserica.Text, acte_cult_botez_pastor.Text);
+            if (acte_cult_casatoria.Checked)
+                str3 = tablesManager.insertActCult(id, acte_cult_casatoria.Text, acte_cult_casatoria_data.Text, acte_cult_casatoria_biserica.Text, acte_cult_casatoria_pastor.Text);
+            if (acte_cult_inmormantare.Checked)
+                str4 = tablesManager.insertActCult(id, acte_cult_inmormantare.Text, acte_cult_inmormantare_data.Text, acte_cult_inmormantare_biserica.Text, acte_cult_inmormantare_pastor.Text);
+            if (acte_cult_ordinare.Checked)
+                str5 = tablesManager.insertActCult(id, acte_cult_ordinare.Text, acte_cult_ordinare_data.Text, acte_cult_ordinare_biserica.Text, acte_cult_ordinare_pastor.Text);
             if (str1.Equals(Status.OK) && str2.Equals(Status.OK) && (str3.Equals(Status.OK) && str4.Equals(Status.OK)) && str5.Equals(Status.OK))
                 return Status.OK;
             return "S-a intamplat o eroare la salvarea actelor de cult in baza de date.";
@@ -525,69 +514,74 @@ namespace Evidenta_Membrilor
 
         private void insertCopiiInDataBase(int id)
         {
-            if (this.familia_copil1.Checked)
-                this.tablesManager.insertCopil(id, 1, this.familia_copil1_nume.Text, this.familia_copil1_data_nasterii.Value.ToString("dd.MM.yyyy"), this.familia_copil1_data_binec.Value.ToString("dd.MM.yyyy"), this.familia_copil1_data_botez.Value.ToString("dd.MM.yyyy"), this.familia_copil1_stare_civila.Text, this.familia_copil1_nr_fisa.Text);
-            if (this.familia_copil2.Checked)
-                this.tablesManager.insertCopil(id, 2, this.familia_copil2_nume.Text, this.familia_copil2_data_nasterii.Value.ToString("dd.MM.yyyy"), this.familia_copil2_data_binec.Value.ToString("dd.MM.yyyy"), this.familia_copil2_data_botez.Value.ToString("dd.MM.yyyy"), this.familia_copil2_stare_civila.Text, this.familia_copil2_nr_fisa.Text);
-            if (this.familia_copil3.Checked)
-                this.tablesManager.insertCopil(id, 3, this.familia_copil3_nume.Text, this.familia_copil3_data_nasterii.Value.ToString("dd.MM.yyyy"), this.familia_copil3_data_binec.Value.ToString("dd.MM.yyyy"), this.familia_copil3_data_botez.Value.ToString("dd.MM.yyyy"), this.familia_copil3_stare_civila.Text, this.familia_copil3_nr_fisa.Text);
-            if (this.familia_copil4.Checked)
-                this.tablesManager.insertCopil(id, 4, this.familia_copil4_nume.Text, this.familia_copil4_data_nasterii.Value.ToString("dd.MM.yyyy"), this.familia_copil4_data_binec.Value.ToString("dd.MM.yyyy"), this.familia_copil4_data_botez.Value.ToString("dd.MM.yyyy"), this.familia_copil4_stare_civila.Text, this.familia_copil4_nr_fisa.Text);
-            if (this.familia_copil5.Checked)
-                this.tablesManager.insertCopil(id, 5, this.familia_copil5_nume.Text, this.familia_copil5_data_nasterii.Value.ToString("dd.MM.yyyy"), this.familia_copil5_data_binec.Value.ToString("dd.MM.yyyy"), this.familia_copil5_data_botez.Value.ToString("dd.MM.yyyy"), this.familia_copil5_stare_civila.Text, this.familia_copil5_nr_fisa.Text);
-            if (this.familia_copil6.Checked)
-                this.tablesManager.insertCopil(id, 6, this.familia_copil6_nume.Text, this.familia_copil6_data_nasterii.Value.ToString("dd.MM.yyyy"), this.familia_copil6_data_binec.Value.ToString("dd.MM.yyyy"), this.familia_copil6_data_botez.Value.ToString("dd.MM.yyyy"), this.familia_copil6_stare_civila.Text, this.familia_copil6_nr_fisa.Text);
-            if (this.familia_copil7.Checked)
-                this.tablesManager.insertCopil(id, 7, this.familia_copil7_nume.Text, this.familia_copil7_data_nasterii.Value.ToString("dd.MM.yyyy"), this.familia_copil7_data_binec.Value.ToString("dd.MM.yyyy"), this.familia_copil7_data_botez.Value.ToString("dd.MM.yyyy"), this.familia_copil7_stare_civila.Text, this.familia_copil7_nr_fisa.Text);
-            if (this.familia_copil8.Checked)
-                this.tablesManager.insertCopil(id, 8, this.familia_copil8_nume.Text, this.familia_copil8_data_nasterii.Value.ToString("dd.MM.yyyy"), this.familia_copil8_data_binec.Value.ToString("dd.MM.yyyy"), this.familia_copil8_data_botez.Value.ToString("dd.MM.yyyy"), this.familia_copil8_stare_civila.Text, this.familia_copil8_nr_fisa.Text);
-            if (this.familia_copil9.Checked)
-                this.tablesManager.insertCopil(id, 9, this.familia_copil9_nume.Text, this.familia_copil9_data_nasterii.Value.ToString("dd.MM.yyyy"), this.familia_copil9_data_binec.Value.ToString("dd.MM.yyyy"), this.familia_copil9_data_botez.Value.ToString("dd.MM.yyyy"), this.familia_copil9_stare_civila.Text, this.familia_copil9_nr_fisa.Text);
-            if (!this.familia_copil10.Checked)
+            if (familia_copil1.Checked)
+                tablesManager.insertCopil(id, 1, familia_copil1_nume.Text, familia_copil1_data_nasterii.Text, familia_copil1_data_binec.Text, familia_copil1_data_botez.Text, familia_copil1_stare_civila.Text, familia_copil1_nr_fisa.Text);
+            if (familia_copil2.Checked)
+                tablesManager.insertCopil(id, 2, familia_copil2_nume.Text, familia_copil2_data_nasterii.Text, familia_copil2_data_binec.Text, familia_copil2_data_botez.Text, familia_copil2_stare_civila.Text, familia_copil2_nr_fisa.Text);
+            if (familia_copil3.Checked)
+                tablesManager.insertCopil(id, 3, familia_copil3_nume.Text, familia_copil3_data_nasterii.Text, familia_copil3_data_binec.Text, familia_copil3_data_botez.Text, familia_copil3_stare_civila.Text, familia_copil3_nr_fisa.Text);
+            if (familia_copil4.Checked)
+                tablesManager.insertCopil(id, 4, familia_copil4_nume.Text, familia_copil4_data_nasterii.Text, familia_copil4_data_binec.Text, familia_copil4_data_botez.Text, familia_copil4_stare_civila.Text, familia_copil4_nr_fisa.Text);
+            if (familia_copil5.Checked)
+                tablesManager.insertCopil(id, 5, familia_copil5_nume.Text, familia_copil5_data_nasterii.Text, familia_copil5_data_binec.Text, familia_copil5_data_botez.Text, familia_copil5_stare_civila.Text, familia_copil5_nr_fisa.Text);
+            if (familia_copil6.Checked)
+                tablesManager.insertCopil(id, 6, familia_copil6_nume.Text, familia_copil6_data_nasterii.Text, familia_copil6_data_binec.Text, familia_copil6_data_botez.Text, familia_copil6_stare_civila.Text, familia_copil6_nr_fisa.Text);
+            if (familia_copil7.Checked)
+                tablesManager.insertCopil(id, 7, familia_copil7_nume.Text, familia_copil7_data_nasterii.Text, familia_copil7_data_binec.Text, familia_copil7_data_botez.Text, familia_copil7_stare_civila.Text, familia_copil7_nr_fisa.Text);
+            if (familia_copil8.Checked)
+                tablesManager.insertCopil(id, 8, familia_copil8_nume.Text, familia_copil8_data_nasterii.Text, familia_copil8_data_binec.Text, familia_copil8_data_botez.Text, familia_copil8_stare_civila.Text, familia_copil8_nr_fisa.Text);
+            if (familia_copil9.Checked)
+                tablesManager.insertCopil(id, 9, familia_copil9_nume.Text, familia_copil9_data_nasterii.Text, familia_copil9_data_binec.Text, familia_copil9_data_botez.Text, familia_copil9_stare_civila.Text, familia_copil9_nr_fisa.Text);
+            if (!familia_copil10.Checked)
                 return;
-            this.tablesManager.insertCopil(id, 10, this.familia_copil10_nume.Text, this.familia_copil10_data_nasterii.Value.ToString("dd.MM.yyyy"), this.familia_copil10_data_binec.Value.ToString("dd.MM.yyyy"), this.familia_copil10_data_botez.Value.ToString("dd.MM.yyyy"), this.familia_copil10_stare_civila.Text, this.familia_copil10_nr_fisa.Text);
+            tablesManager.insertCopil(id, 10, familia_copil10_nume.Text, familia_copil10_data_nasterii.Text, familia_copil10_data_binec.Text, familia_copil10_data_botez.Text, familia_copil10_stare_civila.Text, familia_copil10_nr_fisa.Text);
         }
 
         private void lstMembers_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (this.lstMembers.SelectedItems.Count <= 0)
+            if (lstMembers.SelectedItems.Count <= 0)
                 return;
-            this.clearInputs();
-            int memberId = int.Parse(this.lstMembers.SelectedItems[0].SubItems[0].Text);
-            PersonalData memberPersonalData = this.tablesManager.getMemberPersonalData(memberId);
-            this.showMemberPersonalData(memberId, memberPersonalData);
-            this.showMemberStareCivila(this.tablesManager.getMemberStareCivila(memberId));
-            this.showMemberPrimireInfo(this.tablesManager.getMemberPrimireInfo(memberId));
-            this.showMemberActeCult(this.tablesManager.getMemberActeCult(memberId));
-            this.showMmeberPartener(this.tablesManager.getMemberPartener(memberId));
-            this.showMemberChildren(this.tablesManager.getMemberChildren(memberId));
-            this.showMemberIesireInfo(this.tablesManager.getMemberIesireInfo(memberId));
+            clearInputs();
+            int memberId = int.Parse(lstMembers.SelectedItems[0].SubItems[0].Text);
+            PersonalData memberPersonalData = tablesManager.getMemberPersonalData(memberId);
+            showMemberPersonalData(memberId, memberPersonalData);
+            showMemberStareCivila(tablesManager.getMemberStareCivila(memberId));
+            showMemberPrimireInfo(tablesManager.getMemberPrimireInfo(memberId));
+            showMemberActeCult(tablesManager.getMemberActeCult(memberId));
+            showMmeberPartener(tablesManager.getMemberPartener(memberId));
+            showMemberChildren(tablesManager.getMemberChildren(memberId));
+            showMemberIesireInfo(tablesManager.getMemberIesireInfo(memberId));
         }
 
         private void showMemberIesireInfo(IesireMembru iesireMembru)
         {
             string motiv = iesireMembru.Motiv;
-            if (!(motiv == "Transfer"))
+            if (!(motiv == "Nu se aplică"))
             {
-                if (!(motiv == "Deces"))
+                if (!(motiv == "Transfer"))
                 {
-                    if (!(motiv == "La cerere"))
+                    if (!(motiv == "Deces"))
                     {
-                        if (motiv == "Excludere")
-                            this.iesire_evidenta_motiv.SelectedIndex = 3;
+                        if (!(motiv == "La cerere"))
+                        {
+                            if (motiv == "Excludere")
+                                iesire_evidenta_motiv.SelectedIndex = 4;
+                            else
+                                iesire_evidenta_motiv.SelectedIndex = -1;
+                        }
                         else
-                            this.iesire_evidenta_motiv.SelectedIndex = -1;
+                            iesire_evidenta_motiv.SelectedIndex = 3;
                     }
                     else
-                        this.iesire_evidenta_motiv.SelectedIndex = 2;
+                        iesire_evidenta_motiv.SelectedIndex = 2;
                 }
                 else
-                    this.iesire_evidenta_motiv.SelectedIndex = 1;
+                    iesire_evidenta_motiv.SelectedIndex = 1;
             }
             else
-                this.iesire_evidenta_motiv.SelectedIndex = 0;
-            this.iesire_evidenta_data.Value = DateTime.ParseExact(iesireMembru.Data, "dd.MM.yyyy", null);
-            this.iesire_evidenta_expl.Text = iesireMembru.Expl;
+                iesire_evidenta_motiv.SelectedIndex = 0;
+            iesire_evidenta_data.Text = iesireMembru.Data;
+            iesire_evidenta_expl.Text = iesireMembru.Expl;
         }
 
         private void showMemberChildren(List<MemberChild> children)
@@ -597,284 +591,104 @@ namespace Evidenta_Membrilor
                 switch (child.Copil_nr)
                 {
                     case 1:
-                        this.familia_copil1.Checked = true;
-                        this.familia_copil1_nume.Text = child.Nume;
-                        this.familia_copil1_data_nasterii.Value = DateTime.ParseExact(child.Data_nasterii, "dd.MM.yyyy", null);
-                        this.familia_copil1_data_binec.Value = DateTime.ParseExact(child.Data_binec, "dd.MM.yyyy", null);
-                        this.familia_copil1_data_botez.Value = DateTime.ParseExact(child.Data_botez, "dd.MM.yyyy", null);
+                        familia_copil1.Checked = true;
+                        familia_copil1_nume.Text = child.Nume;
+                        familia_copil1_data_nasterii.Text = child.Data_nasterii;
+                        familia_copil1_data_binec.Text = child.Data_binec;
+                        familia_copil1_data_botez.Text = child.Data_botez;
                         string stareCivila1 = child.Stare_civila;
-                        if (!(stareCivila1 == "Casatorit(ă)"))
-                        {
-                            if (!(stareCivila1 == "Necasatorit(ă)"))
-                            {
-                                if (!(stareCivila1 == "Vaduv(ă)"))
-                                {
-                                    if (stareCivila1 == "Altele")
-                                        this.familia_copil1_stare_civila.SelectedIndex = 3;
-                                    else
-                                        this.familia_copil1_stare_civila.SelectedIndex = -1;
-                                }
-                                else
-                                    this.familia_copil1_stare_civila.SelectedIndex = 2;
-                            }
-                            else
-                                this.familia_copil1_stare_civila.SelectedIndex = 1;
-                        }
-                        else
-                            this.familia_copil1_stare_civila.SelectedIndex = 0;
-                        this.familia_copil1_nr_fisa.Text = child.Nr_fisa;
+                        familia_copil1_stare_civila.SelectedIndex = getChildStareCivilaIndex(stareCivila1);
+                        familia_copil1_nr_fisa.Text = child.Nr_fisa;
                         continue;
                     case 2:
-                        this.familia_copil2.Checked = true;
-                        this.familia_copil2_nume.Text = child.Nume;
-                        this.familia_copil2_data_nasterii.Value = DateTime.ParseExact(child.Data_nasterii, "dd.MM.yyyy", null);
-                        this.familia_copil2_data_binec.Value = DateTime.ParseExact(child.Data_binec, "dd.MM.yyyy", null);
-                        this.familia_copil2_data_botez.Value = DateTime.ParseExact(child.Data_botez, "dd.MM.yyyy", null);
+                        familia_copil2.Checked = true;
+                        familia_copil2_nume.Text = child.Nume;
+                        familia_copil2_data_nasterii.Text = child.Data_nasterii;
+                        familia_copil2_data_binec.Text = child.Data_binec;
+                        familia_copil2_data_botez.Text = child.Data_botez;
                         string stareCivila2 = child.Stare_civila;
-                        if (!(stareCivila2 == "Casatorit(ă)"))
-                        {
-                            if (!(stareCivila2 == "Necasatorit(ă)"))
-                            {
-                                if (!(stareCivila2 == "Vaduv(ă)"))
-                                {
-                                    if (stareCivila2 == "Altele")
-                                        this.familia_copil2_stare_civila.SelectedIndex = 3;
-                                    else
-                                        this.familia_copil2_stare_civila.SelectedIndex = -1;
-                                }
-                                else
-                                    this.familia_copil2_stare_civila.SelectedIndex = 2;
-                            }
-                            else
-                                this.familia_copil2_stare_civila.SelectedIndex = 1;
-                        }
-                        else
-                            this.familia_copil2_stare_civila.SelectedIndex = 0;
-                        this.familia_copil2_nr_fisa.Text = child.Nr_fisa;
+                        familia_copil2_stare_civila.SelectedIndex = getChildStareCivilaIndex(stareCivila2);
+                        familia_copil2_nr_fisa.Text = child.Nr_fisa;
                         continue;
                     case 3:
-                        this.familia_copil3.Checked = true;
-                        this.familia_copil3_nume.Text = child.Nume;
-                        this.familia_copil3_data_nasterii.Value = DateTime.ParseExact(child.Data_nasterii, "dd.MM.yyyy", null);
-                        this.familia_copil3_data_binec.Value = DateTime.ParseExact(child.Data_binec, "dd.MM.yyyy", null);
-                        this.familia_copil3_data_botez.Value = DateTime.ParseExact(child.Data_botez, "dd.MM.yyyy", null);
+                        familia_copil3.Checked = true;
+                        familia_copil3_nume.Text = child.Nume;
+                        familia_copil3_data_nasterii.Text = child.Data_nasterii;
+                        familia_copil3_data_binec.Text = child.Data_binec;
+                        familia_copil3_data_botez.Text = child.Data_botez;
                         string stareCivila3 = child.Stare_civila;
-                        if (!(stareCivila3 == "Casatorit(ă)"))
-                        {
-                            if (!(stareCivila3 == "Necasatorit(ă)"))
-                            {
-                                if (!(stareCivila3 == "Vaduv(ă)"))
-                                {
-                                    if (stareCivila3 == "Altele")
-                                        this.familia_copil3_stare_civila.SelectedIndex = 3;
-                                    else
-                                        this.familia_copil3_stare_civila.SelectedIndex = -1;
-                                }
-                                else
-                                    this.familia_copil3_stare_civila.SelectedIndex = 2;
-                            }
-                            else
-                                this.familia_copil3_stare_civila.SelectedIndex = 1;
-                        }
-                        else
-                            this.familia_copil3_stare_civila.SelectedIndex = 0;
-                        this.familia_copil3_nr_fisa.Text = child.Nr_fisa;
+                        familia_copil3_stare_civila.SelectedIndex = getChildStareCivilaIndex(stareCivila3);
+                        familia_copil3_nr_fisa.Text = child.Nr_fisa;
                         continue;
                     case 4:
-                        this.familia_copil4.Checked = true;
-                        this.familia_copil4_nume.Text = child.Nume;
-                        this.familia_copil4_data_nasterii.Value = DateTime.ParseExact(child.Data_nasterii, "dd.MM.yyyy", null);
-                        this.familia_copil4_data_binec.Value = DateTime.ParseExact(child.Data_binec, "dd.MM.yyyy", null);
-                        this.familia_copil4_data_botez.Value = DateTime.ParseExact(child.Data_botez, "dd.MM.yyyy", null);
+                        familia_copil4.Checked = true;
+                        familia_copil4_nume.Text = child.Nume;
+                        familia_copil4_data_nasterii.Text = child.Data_nasterii;
+                        familia_copil4_data_binec.Text = child.Data_binec;
+                        familia_copil4_data_botez.Text = child.Data_botez;
                         string stareCivila4 = child.Stare_civila;
-                        if (!(stareCivila4 == "Casatorit(ă)"))
-                        {
-                            if (!(stareCivila4 == "Necasatorit(ă)"))
-                            {
-                                if (!(stareCivila4 == "Vaduv(ă)"))
-                                {
-                                    if (stareCivila4 == "Altele")
-                                        this.familia_copil4_stare_civila.SelectedIndex = 3;
-                                    else
-                                        this.familia_copil4_stare_civila.SelectedIndex = -1;
-                                }
-                                else
-                                    this.familia_copil4_stare_civila.SelectedIndex = 2;
-                            }
-                            else
-                                this.familia_copil4_stare_civila.SelectedIndex = 1;
-                        }
-                        else
-                            this.familia_copil4_stare_civila.SelectedIndex = 0;
-                        this.familia_copil4_nr_fisa.Text = child.Nr_fisa;
+                        familia_copil4_stare_civila.SelectedIndex = getChildStareCivilaIndex(stareCivila4);
+                        familia_copil4_nr_fisa.Text = child.Nr_fisa;
                         continue;
                     case 5:
-                        this.familia_copil5.Checked = true;
-                        this.familia_copil5_nume.Text = child.Nume;
-                        this.familia_copil5_data_nasterii.Value = DateTime.ParseExact(child.Data_nasterii, "dd.MM.yyyy", null);
-                        this.familia_copil5_data_binec.Value = DateTime.ParseExact(child.Data_binec, "dd.MM.yyyy", null);
-                        this.familia_copil5_data_botez.Value = DateTime.ParseExact(child.Data_botez, "dd.MM.yyyy", null);
+                        familia_copil5.Checked = true;
+                        familia_copil5_nume.Text = child.Nume;
+                        familia_copil5_data_nasterii.Text = child.Data_nasterii;
+                        familia_copil5_data_binec.Text = child.Data_binec;
+                        familia_copil5_data_botez.Text = child.Data_botez;
                         string stareCivila5 = child.Stare_civila;
-                        if (!(stareCivila5 == "Casatorit(ă)"))
-                        {
-                            if (!(stareCivila5 == "Necasatorit(ă)"))
-                            {
-                                if (!(stareCivila5 == "Vaduv(ă)"))
-                                {
-                                    if (stareCivila5 == "Altele")
-                                        this.familia_copil5_stare_civila.SelectedIndex = 3;
-                                    else
-                                        this.familia_copil5_stare_civila.SelectedIndex = -1;
-                                }
-                                else
-                                    this.familia_copil5_stare_civila.SelectedIndex = 2;
-                            }
-                            else
-                                this.familia_copil5_stare_civila.SelectedIndex = 1;
-                        }
-                        else
-                            this.familia_copil5_stare_civila.SelectedIndex = 0;
-                        this.familia_copil5_nr_fisa.Text = child.Nr_fisa;
+                        familia_copil5_stare_civila.SelectedIndex = getChildStareCivilaIndex(stareCivila5);
+                        familia_copil5_nr_fisa.Text = child.Nr_fisa;
                         continue;
                     case 6:
-                        this.familia_copil6.Checked = true;
-                        this.familia_copil6_nume.Text = child.Nume;
-                        this.familia_copil6_data_nasterii.Value = DateTime.ParseExact(child.Data_nasterii, "dd.MM.yyyy", null);
-                        this.familia_copil6_data_binec.Value = DateTime.ParseExact(child.Data_binec, "dd.MM.yyyy", null);
-                        this.familia_copil6_data_botez.Value = DateTime.ParseExact(child.Data_botez, "dd.MM.yyyy", null);
+                        familia_copil6.Checked = true;
+                        familia_copil6_nume.Text = child.Nume;
+                        familia_copil6_data_nasterii.Text = child.Data_nasterii;
+                        familia_copil6_data_binec.Text = child.Data_binec;
+                        familia_copil6_data_botez.Text = child.Data_botez;
                         string stareCivila6 = child.Stare_civila;
-                        if (!(stareCivila6 == "Casatorit(ă)"))
-                        {
-                            if (!(stareCivila6 == "Necasatorit(ă)"))
-                            {
-                                if (!(stareCivila6 == "Vaduv(ă)"))
-                                {
-                                    if (stareCivila6 == "Altele")
-                                        this.familia_copil6_stare_civila.SelectedIndex = 3;
-                                    else
-                                        this.familia_copil6_stare_civila.SelectedIndex = -1;
-                                }
-                                else
-                                    this.familia_copil6_stare_civila.SelectedIndex = 2;
-                            }
-                            else
-                                this.familia_copil6_stare_civila.SelectedIndex = 1;
-                        }
-                        else
-                            this.familia_copil6_stare_civila.SelectedIndex = 0;
-                        this.familia_copil6_nr_fisa.Text = child.Nr_fisa;
+                        familia_copil6_stare_civila.SelectedIndex = getChildStareCivilaIndex(stareCivila6);
+                        familia_copil6_nr_fisa.Text = child.Nr_fisa;
                         continue;
                     case 7:
-                        this.familia_copil7.Checked = true;
-                        this.familia_copil7_nume.Text = child.Nume;
-                        this.familia_copil7_data_nasterii.Value = DateTime.ParseExact(child.Data_nasterii, "dd.MM.yyyy", null);
-                        this.familia_copil7_data_binec.Value = DateTime.ParseExact(child.Data_binec, "dd.MM.yyyy", null);
-                        this.familia_copil7_data_botez.Value = DateTime.ParseExact(child.Data_botez, "dd.MM.yyyy", null);
+                        familia_copil7.Checked = true;
+                        familia_copil7_nume.Text = child.Nume;
+                        familia_copil7_data_nasterii.Text = child.Data_nasterii;
+                        familia_copil7_data_binec.Text = child.Data_binec;
+                        familia_copil7_data_botez.Text = child.Data_botez;
                         string stareCivila7 = child.Stare_civila;
-                        if (!(stareCivila7 == "Casatorit(ă)"))
-                        {
-                            if (!(stareCivila7 == "Necasatorit(ă)"))
-                            {
-                                if (!(stareCivila7 == "Vaduv(ă)"))
-                                {
-                                    if (stareCivila7 == "Altele")
-                                        this.familia_copil7_stare_civila.SelectedIndex = 3;
-                                    else
-                                        this.familia_copil7_stare_civila.SelectedIndex = -1;
-                                }
-                                else
-                                    this.familia_copil7_stare_civila.SelectedIndex = 2;
-                            }
-                            else
-                                this.familia_copil7_stare_civila.SelectedIndex = 1;
-                        }
-                        else
-                            this.familia_copil7_stare_civila.SelectedIndex = 0;
-                        this.familia_copil7_nr_fisa.Text = child.Nr_fisa;
+                        familia_copil7_stare_civila.SelectedIndex = getChildStareCivilaIndex(stareCivila7);
+                        familia_copil7_nr_fisa.Text = child.Nr_fisa;
                         continue;
                     case 8:
-                        this.familia_copil8.Checked = true;
-                        this.familia_copil8_nume.Text = child.Nume;
-                        this.familia_copil8_data_nasterii.Value = DateTime.ParseExact(child.Data_nasterii, "dd.MM.yyyy", null);
-                        this.familia_copil8_data_binec.Value = DateTime.ParseExact(child.Data_binec, "dd.MM.yyyy", null);
-                        this.familia_copil8_data_botez.Value = DateTime.ParseExact(child.Data_botez, "dd.MM.yyyy", null);
+                        familia_copil8.Checked = true;
+                        familia_copil8_nume.Text = child.Nume;
+                        familia_copil8_data_nasterii.Text = child.Data_nasterii;
+                        familia_copil8_data_binec.Text = child.Data_binec;
+                        familia_copil8_data_botez.Text = child.Data_botez;
                         string stareCivila8 = child.Stare_civila;
-                        if (!(stareCivila8 == "Casatorit(ă)"))
-                        {
-                            if (!(stareCivila8 == "Necasatorit(ă)"))
-                            {
-                                if (!(stareCivila8 == "Vaduv(ă)"))
-                                {
-                                    if (stareCivila8 == "Altele")
-                                        this.familia_copil8_stare_civila.SelectedIndex = 3;
-                                    else
-                                        this.familia_copil8_stare_civila.SelectedIndex = -1;
-                                }
-                                else
-                                    this.familia_copil8_stare_civila.SelectedIndex = 2;
-                            }
-                            else
-                                this.familia_copil8_stare_civila.SelectedIndex = 1;
-                        }
-                        else
-                            this.familia_copil8_stare_civila.SelectedIndex = 0;
-                        this.familia_copil8_nr_fisa.Text = child.Nr_fisa;
+                        familia_copil8_stare_civila.SelectedIndex = getChildStareCivilaIndex(stareCivila8);
+                        familia_copil8_nr_fisa.Text = child.Nr_fisa;
                         continue;
                     case 9:
-                        this.familia_copil9.Checked = true;
-                        this.familia_copil9_nume.Text = child.Nume;
-                        this.familia_copil9_data_nasterii.Value = DateTime.ParseExact(child.Data_nasterii, "dd.MM.yyyy", null);
-                        this.familia_copil9_data_binec.Value = DateTime.ParseExact(child.Data_binec, "dd.MM.yyyy", null);
-                        this.familia_copil9_data_botez.Value = DateTime.ParseExact(child.Data_botez, "dd.MM.yyyy", null);
+                        familia_copil9.Checked = true;
+                        familia_copil9_nume.Text = child.Nume;
+                        familia_copil9_data_nasterii.Text = child.Data_nasterii;
+                        familia_copil9_data_binec.Text = child.Data_binec;
+                        familia_copil9_data_botez.Text = child.Data_botez;
                         string stareCivila9 = child.Stare_civila;
-                        if (!(stareCivila9 == "Casatorit(ă)"))
-                        {
-                            if (!(stareCivila9 == "Necasatorit(ă)"))
-                            {
-                                if (!(stareCivila9 == "Vaduv(ă)"))
-                                {
-                                    if (stareCivila9 == "Altele")
-                                        this.familia_copil9_stare_civila.SelectedIndex = 3;
-                                    else
-                                        this.familia_copil9_stare_civila.SelectedIndex = -1;
-                                }
-                                else
-                                    this.familia_copil9_stare_civila.SelectedIndex = 2;
-                            }
-                            else
-                                this.familia_copil9_stare_civila.SelectedIndex = 1;
-                        }
-                        else
-                            this.familia_copil9_stare_civila.SelectedIndex = 0;
-                        this.familia_copil9_nr_fisa.Text = child.Nr_fisa;
+                        familia_copil9_stare_civila.SelectedIndex = getChildStareCivilaIndex(stareCivila9);
+                        familia_copil9_nr_fisa.Text = child.Nr_fisa;
                         continue;
                     case 10:
-                        this.familia_copil10.Checked = true;
-                        this.familia_copil10_nume.Text = child.Nume;
-                        this.familia_copil10_data_nasterii.Value = DateTime.ParseExact(child.Data_nasterii, "dd.MM.yyyy", null);
-                        this.familia_copil10_data_binec.Value = DateTime.ParseExact(child.Data_binec, "dd.MM.yyyy", null);
-                        this.familia_copil10_data_botez.Value = DateTime.ParseExact(child.Data_botez, "dd.MM.yyyy", null);
+                        familia_copil10.Checked = true;
+                        familia_copil10_nume.Text = child.Nume;
+                        familia_copil10_data_nasterii.Text = child.Data_nasterii;
+                        familia_copil10_data_binec.Text = child.Data_binec;
+                        familia_copil10_data_botez.Text = child.Data_botez;
                         string stareCivila10 = child.Stare_civila;
-                        if (!(stareCivila10 == "Casatorit(ă)"))
-                        {
-                            if (!(stareCivila10 == "Necasatorit(ă)"))
-                            {
-                                if (!(stareCivila10 == "Vaduv(ă)"))
-                                {
-                                    if (stareCivila10 == "Altele")
-                                        this.familia_copil10_stare_civila.SelectedIndex = 3;
-                                    else
-                                        this.familia_copil10_stare_civila.SelectedIndex = -1;
-                                }
-                                else
-                                    this.familia_copil10_stare_civila.SelectedIndex = 2;
-                            }
-                            else
-                                this.familia_copil10_stare_civila.SelectedIndex = 1;
-                        }
-                        else
-                            this.familia_copil10_stare_civila.SelectedIndex = 0;
-                        this.familia_copil10_nr_fisa.Text = child.Nr_fisa;
+                        familia_copil10_stare_civila.SelectedIndex = getChildStareCivilaIndex(stareCivila10);
+                        familia_copil10_nr_fisa.Text = child.Nr_fisa;
                         continue;
                     default:
                         continue;
@@ -882,13 +696,41 @@ namespace Evidenta_Membrilor
             }
         }
 
+        private int getChildStareCivilaIndex(string stareCivila)
+        {
+            if (!(stareCivila == "Nu se aplică"))
+            {
+                if (!(stareCivila == "Necasatorit(ă)"))
+                {
+                    if (!(stareCivila == "Casatorit(ă)"))
+                    {
+                        if (!(stareCivila == "Vaduv(ă)"))
+                        {
+                            if (stareCivila == "Altele")
+                                return 4;
+                            else
+                                return -1;
+                        }
+                        else
+                            return 3;
+                    }
+                    else
+                        return 2;
+                }
+                else
+                    return 1;
+            }
+            else
+                return 0;
+        }
+
         private void showMmeberPartener(PartenerMembru partener)
         {
-            this.familia_sotul.Text = partener.Nume;
-            this.familia_sotul_data_nasterii.Value = DateTime.ParseExact(partener.DataN, "dd.MM.yyyy", null);
-            this.familia_sotul_localitate.Text = partener.Loc;
-            this.familia_sotul_numar_fisa.Text = partener.NrFisa;
-            this.familia_sotul_religie.Text = partener.Rel;
+            familia_sotul.Text = partener.Nume;
+            familia_sotul_data_nasterii.Text = partener.DataN;
+            familia_sotul_localitate.Text = partener.Loc;
+            familia_sotul_numar_fisa.Text = partener.NrFisa;
+            familia_sotul_religie.Text = partener.Rel;
         }
 
         private void showMemberActeCult(List<ActCult> acteCult)
@@ -907,42 +749,42 @@ namespace Evidenta_Membrilor
                             {
                                 if (act == "Inmormantare")
                                 {
-                                    this.acte_cult_inmormantare.Checked = true;
-                                    this.acte_cult_inmormantare_biserica.Text = actCult.Biserica;
-                                    this.acte_cult_inmormantare_data.Value = DateTime.ParseExact(actCult.Data, "dd.MM.yyyy", null);
-                                    this.acte_cult_inmormantare_pastor.Text = actCult.Pastor;
+                                    acte_cult_inmormantare.Checked = true;
+                                    acte_cult_inmormantare_biserica.Text = actCult.Biserica;
+                                    acte_cult_inmormantare_data.Text = actCult.Data;
+                                    acte_cult_inmormantare_pastor.Text = actCult.Pastor;
                                 }
                             }
                             else
                             {
-                                this.acte_cult_ordinare.Checked = true;
-                                this.acte_cult_ordinare_biserica.Text = actCult.Biserica;
-                                this.acte_cult_ordinare_data.Value = DateTime.ParseExact(actCult.Data, "dd.MM.yyyy", null);
-                                this.acte_cult_ordinare_pastor.Text = actCult.Pastor;
+                                acte_cult_ordinare.Checked = true;
+                                acte_cult_ordinare_biserica.Text = actCult.Biserica;
+                                acte_cult_ordinare_data.Text = actCult.Data;
+                                acte_cult_ordinare_pastor.Text = actCult.Pastor;
                             }
                         }
                         else
                         {
                             acte_cult_casatoria.Checked = true;
-                            this.acte_cult_casatoria_biserica.Text = actCult.Biserica;
-                            this.acte_cult_casatoria_data.Value = DateTime.ParseExact(actCult.Data, "dd.MM.yyyy", null);
-                            this.acte_cult_casatoria_pastor.Text = actCult.Pastor;
+                            acte_cult_casatoria_biserica.Text = actCult.Biserica;
+                            acte_cult_casatoria_data.Text = actCult.Data;
+                            acte_cult_casatoria_pastor.Text = actCult.Pastor;
                         }
                     }
                     else
                     {
-                        this.acte_cult_botez.Checked = true;
-                        this.acte_cult_botez_biserica.Text = actCult.Biserica;
-                        this.acte_cult_botez_data.Value = DateTime.ParseExact(actCult.Data, "dd.MM.yyyy", null);
-                        this.acte_cult_botez_pastor.Text = actCult.Pastor;
+                        acte_cult_botez.Checked = true;
+                        acte_cult_botez_biserica.Text = actCult.Biserica;
+                        acte_cult_botez_data.Text = actCult.Data;
+                        acte_cult_botez_pastor.Text = actCult.Pastor;
                     }
                 }
                 else
                 {
-                    this.acte_cult_binec.Checked = true;
-                    this.acte_cult_binec_biserica.Text = actCult.Biserica;
-                    this.acte_cult_binec_data.Value = DateTime.ParseExact(actCult.Data, "dd.MM.yyyy", null);
-                    this.acte_cult_binec_pastor.Text = actCult.Pastor;
+                    acte_cult_binec.Checked = true;
+                    acte_cult_binec_biserica.Text = actCult.Biserica;
+                    acte_cult_binec_data.Text = actCult.Data;
+                    acte_cult_binec_pastor.Text = actCult.Pastor;
                 }
             }
         }
@@ -955,26 +797,26 @@ namespace Evidenta_Membrilor
                 if (!(modalitatea == "Prin botez"))
                 {
                     if (modalitatea == "La cerere")
-                        this.primire_membru_modalitatea.SelectedIndex = 2;
+                        primire_membru_modalitatea.SelectedIndex = 2;
                     else
-                        this.primire_membru_modalitatea.SelectedIndex = -1;
+                        primire_membru_modalitatea.SelectedIndex = -1;
                 }
                 else
-                    this.primire_membru_modalitatea.SelectedIndex = 1;
+                    primire_membru_modalitatea.SelectedIndex = 1;
             }
             else
-                this.primire_membru_modalitatea.SelectedIndex = 0;
-            this.primire_membru_data.Value = DateTime.ParseExact(primireMembru.Data, "dd.MM.yyyy", null);
-            this.primire_membru_expl.Text = primireMembru.Expl;
+                primire_membru_modalitatea.SelectedIndex = 0;
+            primire_membru_data.Text = primireMembru.Data;
+            primire_membru_expl.Text = primireMembru.Expl;
         }
 
         private void showMemberStareCivila(StareaCivila stareCivila)
         {
-            this.starea_civila_data_nasterii.Value = DateTime.ParseExact(stareCivila.DataNasterii, "dd.MM.yyyy", null);
-            this.starea_civila_locul_nasterii.Text = stareCivila.LoculNasterii;
-            this.starea_civila_cnp.Text = stareCivila.Cnp;
-            this.starea_civila_fiul_lui.Text = stareCivila.Tata;
-            this.starea_civila_fiul_si_al.Text = stareCivila.Mama;
+            starea_civila_data_nasterii.Text = stareCivila.DataNasterii;
+            starea_civila_locul_nasterii.Text = stareCivila.LoculNasterii;
+            starea_civila_cnp.Text = stareCivila.Cnp;
+            starea_civila_fiul_lui.Text = stareCivila.Tata;
+            starea_civila_fiul_si_al.Text = stareCivila.Mama;
             string situatia = stareCivila.Situatia;
             if (!(situatia == "Necăsătorit(ă)"))
             {
@@ -983,85 +825,103 @@ namespace Evidenta_Membrilor
                     if (!(situatia == "Văduv(ă)"))
                     {
                         if (situatia == "Altele")
-                            this.starea_civila_situatia_la_inscriere.SelectedIndex = 3;
+                            starea_civila_situatia_la_inscriere.SelectedIndex = 3;
                         else
-                            this.starea_civila_situatia_la_inscriere.SelectedIndex = -1;
+                            starea_civila_situatia_la_inscriere.SelectedIndex = -1;
                     }
                     else
-                        this.starea_civila_situatia_la_inscriere.SelectedIndex = 2;
+                        starea_civila_situatia_la_inscriere.SelectedIndex = 2;
                 }
                 else
-                    this.starea_civila_situatia_la_inscriere.SelectedIndex = 1;
+                    starea_civila_situatia_la_inscriere.SelectedIndex = 1;
             }
             else
-                this.starea_civila_situatia_la_inscriere.SelectedIndex = 0;
-            this.starea_civila_situatia_la_inscriere_expl.Text = stareCivila.SituatiaExpl;
+                starea_civila_situatia_la_inscriere.SelectedIndex = 0;
+            starea_civila_situatia_la_inscriere_expl.Text = stareCivila.SituatiaExpl;
+
             string modif = stareCivila.Modif;
-            if (!(modif == "Căsătorie"))
+            if (!(modif == "Nu se aplică"))
             {
-                if (!(modif == "Văduvie"))
+                if (!(modif == "Căsătorie"))
                 {
-                    if (modif == "Deces")
-                        this.starea_civila_modificari_ulterioare.SelectedIndex = 2;
+                    if (!(modif == "Văduvie"))
+                    {
+                        if (modif == "Deces")
+                        {
+                            starea_civila_modificari_ulterioare.SelectedIndex = 3;
+                        }
+                        else
+                        {
+                            starea_civila_modificari_ulterioare.SelectedIndex = -1;
+                        }
+                    }
+                    else
+                    {
+                        starea_civila_modificari_ulterioare.SelectedIndex = 2;
+                    }
                 }
                 else
-                    this.starea_civila_modificari_ulterioare.SelectedIndex = 1;
+                {
+                    starea_civila_modificari_ulterioare.SelectedIndex = 1;
+                }
             }
             else
-                this.starea_civila_modificari_ulterioare.SelectedIndex = 0;
-            this.starea_civila_modificari_ulterioare_expl.Text = stareCivila.ModifExpl;
+            {
+                starea_civila_modificari_ulterioare.SelectedIndex = 0;
+            }
+            starea_civila_modificari_ulterioare_expl.Text = stareCivila.ModifExpl;
         }
 
         private void showMemberPersonalData(int memberId, PersonalData personalData)
         {
-            this.pk_numarul_fisa_personala.Text = memberId.ToString();
-            this.date_data_inscrierii.Value = DateTime.ParseExact(personalData.DataInscrierii, "dd.MM.yyyy", null);
-            this.date_personale_nume.Text = personalData.Nume;
-            this.date_personale_prenume.Text = personalData.Prenume;
-            this.date_personale_localitatea.Text = personalData.Localitate;
-            this.date_personale_strada.Text = personalData.Strada;
-            this.date_personale_numarul.Text = personalData.Numarul;
-            this.date_personale_judet.Text = personalData.Judet;
-            this.date_personale_telefon.Text = personalData.Telefon;
-            this.date_personale_studii.Text = personalData.Studii;
+            pk_numarul_fisa_personala.Text = memberId.ToString();
+            date_data_inscrierii.Text = personalData.DataInscrierii;
+            date_personale_nume.Text = personalData.Nume;
+            date_personale_prenume.Text = personalData.Prenume;
+            date_personale_localitatea.Text = personalData.Localitate;
+            date_personale_strada.Text = personalData.Strada;
+            date_personale_numarul.Text = personalData.Numarul;
+            date_personale_judet.Text = personalData.Judet;
+            date_personale_telefon.Text = personalData.Telefon;
+            date_personale_studii.Text = personalData.Studii;
             if (personalData.Calitatea.Equals("Membru"))
-                this.date_personale_calitatea_la_inscriere.SelectedIndex = 0;
+                date_personale_calitatea_la_inscriere.SelectedIndex = 0;
             else if (personalData.Calitatea.Equals("Personal ordinat"))
-                this.date_personale_calitatea_la_inscriere.SelectedIndex = 1;
+                date_personale_calitatea_la_inscriere.SelectedIndex = 1;
             else
-                this.date_personale_calitatea_la_inscriere.SelectedIndex = -1;
+                date_personale_calitatea_la_inscriere.SelectedIndex = -1;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.clearInputs();
+            clearInputs();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            this.populateMembersList(this.textBox1.Text);
+            populateMembersList(textBox1.Text);
         }
 
         private void btn_delete_Click(object sender, EventArgs e)
         {
-            if (this.lstMembers.SelectedItems.Count <= 0)
+            if (lstMembers.SelectedItems.Count <= 0)
             {
                 int num1 = (int)MessageBox.Show("Selectati un membru din lista.", "Nimic selectat!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
             else
             {
-                int memberId = int.Parse(this.lstMembers.SelectedItems[0].SubItems[0].Text);
-                this.tablesManager.deleteIesireEvidentaInfo(memberId);
-                this.tablesManager.deleteMemberChilds(memberId);
-                this.tablesManager.deleteMemberPartner(memberId);
-                this.tablesManager.deleteActeCult(memberId);
-                this.tablesManager.deletePrimireInfo(memberId);
-                this.tablesManager.deleteStareCivila(memberId);
-                this.tablesManager.deleteDatePersonale(memberId);
-                this.populateMembersList("");
-                this.textBox1.Clear();
-                this.lstMembers.SelectedItems.Clear();
-                this.clearInputs();
+                int memberId = int.Parse(lstMembers.SelectedItems[0].SubItems[0].Text);
+                tablesManager.deleteIesireEvidentaInfo(memberId);
+                tablesManager.deleteMemberChilds(memberId);
+                tablesManager.deleteMemberPartner(memberId);
+                tablesManager.deleteActeCult(memberId);
+                tablesManager.deletePrimireInfo(memberId);
+                tablesManager.deleteStareCivila(memberId);
+                tablesManager.deleteDatePersonale(memberId);
+                populateMembersList("");
+                textBox1.Clear();
+                lstMembers.SelectedItems.Clear();
+                clearInputs();
                 int num2 = (int)MessageBox.Show("Fisa cu numarul " + (object)memberId + " a fost eliminata.", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
         }
@@ -1069,110 +929,105 @@ namespace Evidenta_Membrilor
         private void button2_Click(object sender, EventArgs e)
         {
             int result;
-            if (!int.TryParse(this.pk_numarul_fisa_personala.Text, out result))
+            if (!int.TryParse(pk_numarul_fisa_personala.Text, out result))
             {
-                int num1 = (int)MessageBox.Show("Fisa personala a membrului trebuie sa fie un numar natural!\nDatele nu au putut fi salvate.", "Date incorecte!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Fisa personala a membrului trebuie sa fie un numar natural!\nDatele nu au putut fi salvate.", "Date incorecte!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             else
             {
-                int id1 = int.Parse(this.pk_numarul_fisa_personala.Text);
-                if (!this.tablesManager.idAlreadyInDataBase(id1))
+                int id1 = int.Parse(pk_numarul_fisa_personala.Text);
+                if (!tablesManager.idAlreadyInDataBase(id1))
                 {
-                    int num2 = (int)MessageBox.Show("Numarul fisei nu exista in baza de date!\nActualizarea nu a avut succes.", "Date incorecte!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                    MessageBox.Show("Numarul fisei nu exista in baza de date!\nActualizarea nu a avut succes.", "Date incorecte!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                 }
                 else
                 {
-                    TablesManager tablesManager1 = this.tablesManager;
+                    TablesManager tablesManager1 = tablesManager;
                     int id2 = id1;
-                    string text1 = this.date_personale_nume.Text;
-                    string text2 = this.date_personale_prenume.Text;
-                    string text3 = this.date_personale_localitatea.Text;
-                    string text4 = this.date_personale_strada.Text;
-                    string text5 = this.date_personale_numarul.Text;
-                    string text6 = this.date_personale_judet.Text;
-                    string text7 = this.date_personale_telefon.Text;
-                    string text8 = this.date_personale_studii.Text;
-                    string calitatea = this.date_personale_calitatea_la_inscriere.SelectedItem.ToString();
-                    DateTime dateTime = this.date_data_inscrierii.Value;
-                    string data_inscrierii = dateTime.ToString("dd.MM.yyyy");
+                    string text1 = date_personale_nume.Text;
+                    string text2 = date_personale_prenume.Text;
+                    string text3 = date_personale_localitatea.Text;
+                    string text4 = date_personale_strada.Text;
+                    string text5 = date_personale_numarul.Text;
+                    string text6 = date_personale_judet.Text;
+                    string text7 = date_personale_telefon.Text;
+                    string text8 = date_personale_studii.Text;
+                    string calitatea = date_personale_calitatea_la_inscriere.SelectedItem.ToString();
+                    string data_inscrierii = date_data_inscrierii.Text;
                     string str1 = tablesManager1.updateDatePersonale(id2, text1, text2, text3, text4, text5, text6, text7, text8, calitatea, data_inscrierii);
                     if (!str1.Equals(Status.OK))
                     {
-                        int num3 = (int)MessageBox.Show(str1 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                        MessageBox.Show(str1 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                     }
                     else
                     {
-                        TablesManager tablesManager2 = this.tablesManager;
+                        TablesManager tablesManager2 = tablesManager;
                         int id3 = id1;
-                        dateTime = this.starea_civila_data_nasterii.Value;
-                        string dataNasterii1 = dateTime.ToString("dd.MM.yyyy");
-                        string text9 = this.starea_civila_locul_nasterii.Text;
-                        string text10 = this.starea_civila_cnp.Text;
-                        string text11 = this.starea_civila_fiul_lui.Text;
-                        string text12 = this.starea_civila_fiul_si_al.Text;
-                        string situatia = this.starea_civila_situatia_la_inscriere.SelectedItem.ToString();
-                        string text13 = this.starea_civila_situatia_la_inscriere_expl.Text;
-                        string modificari = this.starea_civila_modificari_ulterioare.SelectedItem.ToString();
-                        string text14 = this.starea_civila_modificari_ulterioare_expl.Text;
+                        string dataNasterii1 = starea_civila_data_nasterii.Text;
+                        string text9 = starea_civila_locul_nasterii.Text;
+                        string text10 = starea_civila_cnp.Text;
+                        string text11 = starea_civila_fiul_lui.Text;
+                        string text12 = starea_civila_fiul_si_al.Text;
+                        string situatia = starea_civila_situatia_la_inscriere.SelectedItem.ToString();
+                        string text13 = starea_civila_situatia_la_inscriere_expl.Text;
+                        string modificari = starea_civila_modificari_ulterioare.SelectedItem.ToString();
+                        string text14 = starea_civila_modificari_ulterioare_expl.Text;
                         string str2 = tablesManager2.updateStareaCivila(id3, dataNasterii1, text9, text10, text11, text12, situatia, text13, modificari, text14);
                         if (!str2.Equals(Status.OK))
                         {
-                            int num4 = (int)MessageBox.Show(str2 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                            MessageBox.Show(str2 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                         }
                         else
                         {
-                            TablesManager tablesManager3 = this.tablesManager;
+                            TablesManager tablesManager3 = tablesManager;
                             int id4 = id1;
-                            string modalitatea = this.primire_membru_modalitatea.SelectedItem.ToString();
-                            dateTime = this.primire_membru_data.Value;
-                            string data1 = dateTime.ToString("dd.MM.yyyy");
-                            string text15 = this.primire_membru_expl.Text;
+                            string modalitatea = primire_membru_modalitatea.SelectedItem.ToString();
+                            string data1 = primire_membru_data.Text;
+                            string text15 = primire_membru_expl.Text;
                             string str3 = tablesManager3.updatePrimireMembru(id4, modalitatea, data1, text15);
                             if (!str3.Equals(Status.OK))
                             {
-                                int num5 = (int)MessageBox.Show(str3 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                                MessageBox.Show(str3 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                             }
                             else
                             {
-                                string str4 = this.updateActeCult(id1);
+                                string str4 = updateActeCult(id1);
                                 if (!str4.Equals(Status.OK))
                                 {
-                                    int num6 = (int)MessageBox.Show(str4 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                                    MessageBox.Show(str4 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                                 }
                                 else
                                 {
-                                    TablesManager tablesManager4 = this.tablesManager;
+                                    TablesManager tablesManager4 = tablesManager;
                                     int id5 = id1;
-                                    string text16 = this.familia_sotul.Text;
-                                    string text17 = this.familia_sotul_numar_fisa.Text;
-                                    dateTime = this.familia_sotul_data_nasterii.Value;
-                                    string dataNasterii2 = dateTime.ToString("dd.MM.yyyy");
-                                    string text18 = this.familia_sotul_localitate.Text;
-                                    string text19 = this.familia_sotul_religie.Text;
+                                    string text16 = familia_sotul.Text;
+                                    string text17 = familia_sotul_numar_fisa.Text;
+                                    string dataNasterii2 = familia_sotul_data_nasterii.Text;
+                                    string text18 = familia_sotul_localitate.Text;
+                                    string text19 = familia_sotul_religie.Text;
                                     string str5 = tablesManager4.updatePartener(id5, text16, text17, dataNasterii2, text18, text19);
                                     if (!str5.Equals(Status.OK))
                                     {
-                                        int num7 = (int)MessageBox.Show(str5 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                                        MessageBox.Show(str5 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                                     }
                                     else
                                     {
-                                        this.updateChildren(id1);
-                                        TablesManager tablesManager5 = this.tablesManager;
+                                        updateChildren(id1);
+                                        TablesManager tablesManager5 = tablesManager;
                                         int id6 = id1;
-                                        string motiv = this.iesire_evidenta_motiv.SelectedItem.ToString();
-                                        dateTime = this.iesire_evidenta_data.Value;
-                                        string data2 = dateTime.ToString("dd.MM.yyyy");
-                                        string text20 = this.iesire_evidenta_expl.Text;
+                                        string motiv = iesire_evidenta_motiv.SelectedItem.ToString();
+                                        string data2 = iesire_evidenta_data.Text;
+                                        string text20 = iesire_evidenta_expl.Text;
                                         string str6 = tablesManager5.updateIesireEvidenta(id6, motiv, data2, text20);
                                         if (!str6.Equals(Status.OK))
                                         {
-                                            int num8 = (int)MessageBox.Show(str6 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                                            MessageBox.Show(str6 + "\nDatele nu au fost salvate", "Eroare!", MessageBoxButtons.OK, MessageBoxIcon.Hand);
                                         }
                                         else
                                         {
-                                            this.populateMembersList("");
-                                            this.textBox1.Clear();
-                                            int num9 = (int)MessageBox.Show("Fisa cu numarul " + (object)id1 + " a fost actualizata cu succes.", "Operatie reusita!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                                            populateMembersList("");
+                                            textBox1.Clear();
+                                            MessageBox.Show("Fisa cu numarul " + (object)id1 + " a fost actualizata cu succes.", "Operatie reusita!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                                         }
                                     }
                                 }
@@ -1185,14 +1040,14 @@ namespace Evidenta_Membrilor
 
         private void updateChildren(int id)
         {
-            this.tablesManager.deleteMemberChilds(id);
-            this.insertCopiiInDataBase(id);
+            tablesManager.deleteMemberChilds(id);
+            insertCopiiInDataBase(id);
         }
 
         private string updateActeCult(int id)
         {
-            this.tablesManager.deleteActeCult(id);
-            return this.insertActeCultInDataBase(id);
+            tablesManager.deleteActeCult(id);
+            return insertActeCultInDataBase(id);
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -1202,8 +1057,8 @@ namespace Evidenta_Membrilor
 
         protected override void Dispose(bool disposing)
         {
-            if (disposing && this.components != null)
-                this.components.Dispose();
+            if (disposing && components != null)
+                components.Dispose();
             base.Dispose(disposing);
         }
 
@@ -1213,10 +1068,10 @@ namespace Evidenta_Membrilor
             this.pk_numarul_fisa_personala = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.date_data_inscrierii = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.date_personale_calitatea_la_inscriere = new System.Windows.Forms.ComboBox();
-            this.date_data_inscrierii = new System.Windows.Forms.DateTimePicker();
             this.date_personale_numarul = new System.Windows.Forms.TextBox();
             this.date_personale_judet = new System.Windows.Forms.TextBox();
             this.date_personale_strada = new System.Windows.Forms.TextBox();
@@ -1233,6 +1088,7 @@ namespace Evidenta_Membrilor
             this.date_personale_prenume = new System.Windows.Forms.TextBox();
             this.date_personale_nume = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.starea_civila_data_nasterii = new System.Windows.Forms.TextBox();
             this.starea_civila_modificari_ulterioare_expl = new System.Windows.Forms.TextBox();
             this.starea_civila_situatia_la_inscriere_expl = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
@@ -1249,15 +1105,19 @@ namespace Evidenta_Membrilor
             this.label18 = new System.Windows.Forms.Label();
             this.starea_civila_locul_nasterii = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.starea_civila_data_nasterii = new System.Windows.Forms.DateTimePicker();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.primire_membru_data = new System.Windows.Forms.TextBox();
             this.primire_membru_expl = new System.Windows.Forms.TextBox();
             this.label26 = new System.Windows.Forms.Label();
-            this.primire_membru_data = new System.Windows.Forms.DateTimePicker();
             this.label25 = new System.Windows.Forms.Label();
             this.primire_membru_modalitatea = new System.Windows.Forms.ComboBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.acte_cult_inmormantare_data = new System.Windows.Forms.TextBox();
+            this.acte_cult_ordinare_data = new System.Windows.Forms.TextBox();
+            this.acte_cult_casatoria_data = new System.Windows.Forms.TextBox();
+            this.acte_cult_botez_data = new System.Windows.Forms.TextBox();
+            this.acte_cult_binec_data = new System.Windows.Forms.TextBox();
             this.acte_cult_inmormantare = new System.Windows.Forms.CheckBox();
             this.acte_cult_ordinare = new System.Windows.Forms.CheckBox();
             this.acte_cult_casatoria = new System.Windows.Forms.CheckBox();
@@ -1267,28 +1127,54 @@ namespace Evidenta_Membrilor
             this.label39 = new System.Windows.Forms.Label();
             this.acte_cult_inmormantare_biserica = new System.Windows.Forms.TextBox();
             this.label40 = new System.Windows.Forms.Label();
-            this.acte_cult_inmormantare_data = new System.Windows.Forms.DateTimePicker();
             this.acte_cult_ordinare_pastor = new System.Windows.Forms.TextBox();
             this.label36 = new System.Windows.Forms.Label();
             this.acte_cult_ordinare_biserica = new System.Windows.Forms.TextBox();
             this.label37 = new System.Windows.Forms.Label();
-            this.acte_cult_ordinare_data = new System.Windows.Forms.DateTimePicker();
             this.acte_cult_casatoria_pastor = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
             this.acte_cult_casatoria_biserica = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
-            this.acte_cult_casatoria_data = new System.Windows.Forms.DateTimePicker();
             this.acte_cult_botez_pastor = new System.Windows.Forms.TextBox();
             this.label30 = new System.Windows.Forms.Label();
             this.acte_cult_botez_biserica = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
-            this.acte_cult_botez_data = new System.Windows.Forms.DateTimePicker();
             this.acte_cult_binec_pastor = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
             this.acte_cult_binec_biserica = new System.Windows.Forms.TextBox();
             this.label29 = new System.Windows.Forms.Label();
-            this.acte_cult_binec_data = new System.Windows.Forms.DateTimePicker();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.familia_copil10_data_botez = new System.Windows.Forms.TextBox();
+            this.familia_copil10_data_binec = new System.Windows.Forms.TextBox();
+            this.familia_copil10_data_nasterii = new System.Windows.Forms.TextBox();
+            this.familia_copil9_data_botez = new System.Windows.Forms.TextBox();
+            this.familia_copil9_data_binec = new System.Windows.Forms.TextBox();
+            this.familia_copil9_data_nasterii = new System.Windows.Forms.TextBox();
+            this.familia_copil8_data_botez = new System.Windows.Forms.TextBox();
+            this.familia_copil8_data_binec = new System.Windows.Forms.TextBox();
+            this.familia_copil8_data_nasterii = new System.Windows.Forms.TextBox();
+            this.familia_copil7_data_botez = new System.Windows.Forms.TextBox();
+            this.familia_copil7_data_binec = new System.Windows.Forms.TextBox();
+            this.familia_copil7_data_nasterii = new System.Windows.Forms.TextBox();
+            this.familia_copil6_data_botez = new System.Windows.Forms.TextBox();
+            this.familia_copil6_data_binec = new System.Windows.Forms.TextBox();
+            this.familia_copil6_data_nasterii = new System.Windows.Forms.TextBox();
+            this.familia_copil5_data_botez = new System.Windows.Forms.TextBox();
+            this.familia_copil5_data_binec = new System.Windows.Forms.TextBox();
+            this.familia_copil5_data_nasterii = new System.Windows.Forms.TextBox();
+            this.familia_copil4_data_botez = new System.Windows.Forms.TextBox();
+            this.familia_copil4_data_binec = new System.Windows.Forms.TextBox();
+            this.familia_copil4_data_nasterii = new System.Windows.Forms.TextBox();
+            this.familia_copil3_data_botez = new System.Windows.Forms.TextBox();
+            this.familia_copil3_data_binec = new System.Windows.Forms.TextBox();
+            this.familia_copil3_data_nasterii = new System.Windows.Forms.TextBox();
+            this.familia_copil2_data_botez = new System.Windows.Forms.TextBox();
+            this.familia_copil2_data_binec = new System.Windows.Forms.TextBox();
+            this.familia_copil2_data_nasterii = new System.Windows.Forms.TextBox();
+            this.familia_copil1_data_botez = new System.Windows.Forms.TextBox();
+            this.familia_copil1_data_binec = new System.Windows.Forms.TextBox();
+            this.familia_copil1_data_nasterii = new System.Windows.Forms.TextBox();
+            this.familia_sotul_data_nasterii = new System.Windows.Forms.TextBox();
             this.familia_copil10 = new System.Windows.Forms.CheckBox();
             this.familia_copil9 = new System.Windows.Forms.CheckBox();
             this.familia_copil8 = new System.Windows.Forms.CheckBox();
@@ -1303,63 +1189,33 @@ namespace Evidenta_Membrilor
             this.label35 = new System.Windows.Forms.Label();
             this.familia_copil10_nr_fisa = new System.Windows.Forms.TextBox();
             this.familia_copil10_stare_civila = new System.Windows.Forms.ComboBox();
-            this.familia_copil10_data_botez = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil10_data_binec = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil10_data_nasterii = new System.Windows.Forms.DateTimePicker();
             this.familia_copil10_nume = new System.Windows.Forms.TextBox();
             this.familia_copil9_nr_fisa = new System.Windows.Forms.TextBox();
             this.familia_copil9_stare_civila = new System.Windows.Forms.ComboBox();
-            this.familia_copil9_data_botez = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil9_data_binec = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil9_data_nasterii = new System.Windows.Forms.DateTimePicker();
             this.familia_copil9_nume = new System.Windows.Forms.TextBox();
             this.familia_copil8_nr_fisa = new System.Windows.Forms.TextBox();
             this.familia_copil8_stare_civila = new System.Windows.Forms.ComboBox();
-            this.familia_copil8_data_botez = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil8_data_binec = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil8_data_nasterii = new System.Windows.Forms.DateTimePicker();
             this.familia_copil8_nume = new System.Windows.Forms.TextBox();
             this.familia_copil7_nr_fisa = new System.Windows.Forms.TextBox();
             this.familia_copil7_stare_civila = new System.Windows.Forms.ComboBox();
-            this.familia_copil7_data_botez = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil7_data_binec = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil7_data_nasterii = new System.Windows.Forms.DateTimePicker();
             this.familia_copil7_nume = new System.Windows.Forms.TextBox();
             this.familia_copil6_nr_fisa = new System.Windows.Forms.TextBox();
             this.familia_copil6_stare_civila = new System.Windows.Forms.ComboBox();
-            this.familia_copil6_data_botez = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil6_data_binec = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil6_data_nasterii = new System.Windows.Forms.DateTimePicker();
             this.familia_copil6_nume = new System.Windows.Forms.TextBox();
             this.familia_copil5_nr_fisa = new System.Windows.Forms.TextBox();
             this.familia_copil5_stare_civila = new System.Windows.Forms.ComboBox();
-            this.familia_copil5_data_botez = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil5_data_binec = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil5_data_nasterii = new System.Windows.Forms.DateTimePicker();
             this.familia_copil5_nume = new System.Windows.Forms.TextBox();
             this.familia_copil4_nr_fisa = new System.Windows.Forms.TextBox();
             this.familia_copil4_stare_civila = new System.Windows.Forms.ComboBox();
-            this.familia_copil4_data_botez = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil4_data_binec = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil4_data_nasterii = new System.Windows.Forms.DateTimePicker();
             this.familia_copil4_nume = new System.Windows.Forms.TextBox();
             this.familia_copil3_nr_fisa = new System.Windows.Forms.TextBox();
             this.familia_copil3_stare_civila = new System.Windows.Forms.ComboBox();
-            this.familia_copil3_data_botez = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil3_data_binec = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil3_data_nasterii = new System.Windows.Forms.DateTimePicker();
             this.familia_copil3_nume = new System.Windows.Forms.TextBox();
             this.familia_copil2_nr_fisa = new System.Windows.Forms.TextBox();
             this.familia_copil2_stare_civila = new System.Windows.Forms.ComboBox();
-            this.familia_copil2_data_botez = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil2_data_binec = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil2_data_nasterii = new System.Windows.Forms.DateTimePicker();
             this.familia_copil2_nume = new System.Windows.Forms.TextBox();
             this.familia_copil1_nr_fisa = new System.Windows.Forms.TextBox();
             this.familia_copil1_stare_civila = new System.Windows.Forms.ComboBox();
-            this.familia_copil1_data_botez = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil1_data_binec = new System.Windows.Forms.DateTimePicker();
-            this.familia_copil1_data_nasterii = new System.Windows.Forms.DateTimePicker();
             this.label54 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
@@ -1371,15 +1227,14 @@ namespace Evidenta_Membrilor
             this.label46 = new System.Windows.Forms.Label();
             this.familia_sotul_localitate = new System.Windows.Forms.TextBox();
             this.label45 = new System.Windows.Forms.Label();
-            this.familia_sotul_data_nasterii = new System.Windows.Forms.DateTimePicker();
             this.label44 = new System.Windows.Forms.Label();
             this.familia_sotul_numar_fisa = new System.Windows.Forms.TextBox();
             this.label43 = new System.Windows.Forms.Label();
             this.familia_sotul = new System.Windows.Forms.TextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.iesire_evidenta_data = new System.Windows.Forms.TextBox();
             this.iesire_evidenta_expl = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
-            this.iesire_evidenta_data = new System.Windows.Forms.DateTimePicker();
             this.label27 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.iesire_evidenta_motiv = new System.Windows.Forms.ComboBox();
@@ -1443,10 +1298,10 @@ namespace Evidenta_Membrilor
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.groupBox1.Controls.Add(this.date_data_inscrierii);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.date_personale_calitatea_la_inscriere);
-            this.groupBox1.Controls.Add(this.date_data_inscrierii);
             this.groupBox1.Controls.Add(this.date_personale_numarul);
             this.groupBox1.Controls.Add(this.date_personale_judet);
             this.groupBox1.Controls.Add(this.date_personale_strada);
@@ -1471,6 +1326,13 @@ namespace Evidenta_Membrilor
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Date personale:";
+            // 
+            // date_data_inscrierii
+            // 
+            this.date_data_inscrierii.Location = new System.Drawing.Point(406, 112);
+            this.date_data_inscrierii.Name = "date_data_inscrierii";
+            this.date_data_inscrierii.Size = new System.Drawing.Size(116, 29);
+            this.date_data_inscrierii.TabIndex = 33;
             // 
             // label4
             // 
@@ -1504,15 +1366,6 @@ namespace Evidenta_Membrilor
             this.date_personale_calitatea_la_inscriere.Name = "date_personale_calitatea_la_inscriere";
             this.date_personale_calitatea_la_inscriere.Size = new System.Drawing.Size(161, 29);
             this.date_personale_calitatea_la_inscriere.TabIndex = 30;
-            // 
-            // date_data_inscrierii
-            // 
-            this.date_data_inscrierii.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.date_data_inscrierii.Location = new System.Drawing.Point(405, 112);
-            this.date_data_inscrierii.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.date_data_inscrierii.Name = "date_data_inscrierii";
-            this.date_data_inscrierii.Size = new System.Drawing.Size(102, 29);
-            this.date_data_inscrierii.TabIndex = 16;
             // 
             // date_personale_numarul
             // 
@@ -1659,6 +1512,7 @@ namespace Evidenta_Membrilor
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.groupBox2.Controls.Add(this.starea_civila_data_nasterii);
             this.groupBox2.Controls.Add(this.starea_civila_modificari_ulterioare_expl);
             this.groupBox2.Controls.Add(this.starea_civila_situatia_la_inscriere_expl);
             this.groupBox2.Controls.Add(this.label24);
@@ -1675,7 +1529,6 @@ namespace Evidenta_Membrilor
             this.groupBox2.Controls.Add(this.label18);
             this.groupBox2.Controls.Add(this.starea_civila_locul_nasterii);
             this.groupBox2.Controls.Add(this.label17);
-            this.groupBox2.Controls.Add(this.starea_civila_data_nasterii);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Location = new System.Drawing.Point(369, 279);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
@@ -1685,6 +1538,13 @@ namespace Evidenta_Membrilor
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Date privind starea civila:";
+            // 
+            // starea_civila_data_nasterii
+            // 
+            this.starea_civila_data_nasterii.Location = new System.Drawing.Point(139, 40);
+            this.starea_civila_data_nasterii.Name = "starea_civila_data_nasterii";
+            this.starea_civila_data_nasterii.Size = new System.Drawing.Size(139, 29);
+            this.starea_civila_data_nasterii.TabIndex = 18;
             // 
             // starea_civila_modificari_ulterioare_expl
             // 
@@ -1729,6 +1589,7 @@ namespace Evidenta_Membrilor
             this.starea_civila_modificari_ulterioare.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.starea_civila_modificari_ulterioare.FormattingEnabled = true;
             this.starea_civila_modificari_ulterioare.Items.AddRange(new object[] {
+            "Nu se aplică",
             "Căsătorie",
             "Văduvie",
             "Deces"});
@@ -1849,15 +1710,6 @@ namespace Evidenta_Membrilor
             this.label17.TabIndex = 2;
             this.label17.Text = "Locul naşterii:";
             // 
-            // starea_civila_data_nasterii
-            // 
-            this.starea_civila_data_nasterii.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.starea_civila_data_nasterii.Location = new System.Drawing.Point(136, 40);
-            this.starea_civila_data_nasterii.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.starea_civila_data_nasterii.Name = "starea_civila_data_nasterii";
-            this.starea_civila_data_nasterii.Size = new System.Drawing.Size(141, 29);
-            this.starea_civila_data_nasterii.TabIndex = 1;
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -1871,9 +1723,9 @@ namespace Evidenta_Membrilor
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.groupBox3.Controls.Add(this.primire_membru_data);
             this.groupBox3.Controls.Add(this.primire_membru_expl);
             this.groupBox3.Controls.Add(this.label26);
-            this.groupBox3.Controls.Add(this.primire_membru_data);
             this.groupBox3.Controls.Add(this.label25);
             this.groupBox3.Controls.Add(this.primire_membru_modalitatea);
             this.groupBox3.Location = new System.Drawing.Point(369, 523);
@@ -1884,6 +1736,13 @@ namespace Evidenta_Membrilor
             this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Date privind modul de primire ca membru:";
+            // 
+            // primire_membru_data
+            // 
+            this.primire_membru_data.Location = new System.Drawing.Point(307, 47);
+            this.primire_membru_data.Name = "primire_membru_data";
+            this.primire_membru_data.Size = new System.Drawing.Size(148, 29);
+            this.primire_membru_data.TabIndex = 5;
             // 
             // primire_membru_expl
             // 
@@ -1903,15 +1762,6 @@ namespace Evidenta_Membrilor
             this.label26.Size = new System.Drawing.Size(73, 21);
             this.label26.TabIndex = 3;
             this.label26.Text = "Explicaţii:";
-            // 
-            // primire_membru_data
-            // 
-            this.primire_membru_data.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.primire_membru_data.Location = new System.Drawing.Point(315, 47);
-            this.primire_membru_data.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.primire_membru_data.Name = "primire_membru_data";
-            this.primire_membru_data.Size = new System.Drawing.Size(141, 29);
-            this.primire_membru_data.TabIndex = 2;
             // 
             // label25
             // 
@@ -1940,6 +1790,11 @@ namespace Evidenta_Membrilor
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.groupBox4.Controls.Add(this.acte_cult_inmormantare_data);
+            this.groupBox4.Controls.Add(this.acte_cult_ordinare_data);
+            this.groupBox4.Controls.Add(this.acte_cult_casatoria_data);
+            this.groupBox4.Controls.Add(this.acte_cult_botez_data);
+            this.groupBox4.Controls.Add(this.acte_cult_binec_data);
             this.groupBox4.Controls.Add(this.acte_cult_inmormantare);
             this.groupBox4.Controls.Add(this.acte_cult_ordinare);
             this.groupBox4.Controls.Add(this.acte_cult_casatoria);
@@ -1949,27 +1804,22 @@ namespace Evidenta_Membrilor
             this.groupBox4.Controls.Add(this.label39);
             this.groupBox4.Controls.Add(this.acte_cult_inmormantare_biserica);
             this.groupBox4.Controls.Add(this.label40);
-            this.groupBox4.Controls.Add(this.acte_cult_inmormantare_data);
             this.groupBox4.Controls.Add(this.acte_cult_ordinare_pastor);
             this.groupBox4.Controls.Add(this.label36);
             this.groupBox4.Controls.Add(this.acte_cult_ordinare_biserica);
             this.groupBox4.Controls.Add(this.label37);
-            this.groupBox4.Controls.Add(this.acte_cult_ordinare_data);
             this.groupBox4.Controls.Add(this.acte_cult_casatoria_pastor);
             this.groupBox4.Controls.Add(this.label33);
             this.groupBox4.Controls.Add(this.acte_cult_casatoria_biserica);
             this.groupBox4.Controls.Add(this.label34);
-            this.groupBox4.Controls.Add(this.acte_cult_casatoria_data);
             this.groupBox4.Controls.Add(this.acte_cult_botez_pastor);
             this.groupBox4.Controls.Add(this.label30);
             this.groupBox4.Controls.Add(this.acte_cult_botez_biserica);
             this.groupBox4.Controls.Add(this.label31);
-            this.groupBox4.Controls.Add(this.acte_cult_botez_data);
             this.groupBox4.Controls.Add(this.acte_cult_binec_pastor);
             this.groupBox4.Controls.Add(this.label28);
             this.groupBox4.Controls.Add(this.acte_cult_binec_biserica);
             this.groupBox4.Controls.Add(this.label29);
-            this.groupBox4.Controls.Add(this.acte_cult_binec_data);
             this.groupBox4.Location = new System.Drawing.Point(369, 650);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.groupBox4.Name = "groupBox4";
@@ -1978,6 +1828,41 @@ namespace Evidenta_Membrilor
             this.groupBox4.TabIndex = 9;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Date privind actele de cult oficiate:";
+            // 
+            // acte_cult_inmormantare_data
+            // 
+            this.acte_cult_inmormantare_data.Location = new System.Drawing.Point(160, 202);
+            this.acte_cult_inmormantare_data.Name = "acte_cult_inmormantare_data";
+            this.acte_cult_inmormantare_data.Size = new System.Drawing.Size(100, 29);
+            this.acte_cult_inmormantare_data.TabIndex = 40;
+            // 
+            // acte_cult_ordinare_data
+            // 
+            this.acte_cult_ordinare_data.Location = new System.Drawing.Point(159, 160);
+            this.acte_cult_ordinare_data.Name = "acte_cult_ordinare_data";
+            this.acte_cult_ordinare_data.Size = new System.Drawing.Size(100, 29);
+            this.acte_cult_ordinare_data.TabIndex = 39;
+            // 
+            // acte_cult_casatoria_data
+            // 
+            this.acte_cult_casatoria_data.Location = new System.Drawing.Point(159, 118);
+            this.acte_cult_casatoria_data.Name = "acte_cult_casatoria_data";
+            this.acte_cult_casatoria_data.Size = new System.Drawing.Size(101, 29);
+            this.acte_cult_casatoria_data.TabIndex = 38;
+            // 
+            // acte_cult_botez_data
+            // 
+            this.acte_cult_botez_data.Location = new System.Drawing.Point(159, 77);
+            this.acte_cult_botez_data.Name = "acte_cult_botez_data";
+            this.acte_cult_botez_data.Size = new System.Drawing.Size(101, 29);
+            this.acte_cult_botez_data.TabIndex = 37;
+            // 
+            // acte_cult_binec_data
+            // 
+            this.acte_cult_binec_data.Location = new System.Drawing.Point(159, 35);
+            this.acte_cult_binec_data.Name = "acte_cult_binec_data";
+            this.acte_cult_binec_data.Size = new System.Drawing.Size(101, 29);
+            this.acte_cult_binec_data.TabIndex = 36;
             // 
             // acte_cult_inmormantare
             // 
@@ -2055,31 +1940,22 @@ namespace Evidenta_Membrilor
             // 
             // acte_cult_inmormantare_biserica
             // 
-            this.acte_cult_inmormantare_biserica.Location = new System.Drawing.Point(397, 203);
+            this.acte_cult_inmormantare_biserica.Location = new System.Drawing.Point(348, 203);
             this.acte_cult_inmormantare_biserica.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.acte_cult_inmormantare_biserica.MaxLength = 100;
             this.acte_cult_inmormantare_biserica.Name = "acte_cult_inmormantare_biserica";
-            this.acte_cult_inmormantare_biserica.Size = new System.Drawing.Size(175, 29);
+            this.acte_cult_inmormantare_biserica.Size = new System.Drawing.Size(224, 29);
             this.acte_cult_inmormantare_biserica.TabIndex = 28;
             // 
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(326, 205);
+            this.label40.Location = new System.Drawing.Point(278, 206);
             this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(66, 21);
             this.label40.TabIndex = 27;
             this.label40.Text = "Biserica:";
-            // 
-            // acte_cult_inmormantare_data
-            // 
-            this.acte_cult_inmormantare_data.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.acte_cult_inmormantare_data.Location = new System.Drawing.Point(200, 203);
-            this.acte_cult_inmormantare_data.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.acte_cult_inmormantare_data.Name = "acte_cult_inmormantare_data";
-            this.acte_cult_inmormantare_data.Size = new System.Drawing.Size(115, 29);
-            this.acte_cult_inmormantare_data.TabIndex = 26;
             // 
             // acte_cult_ordinare_pastor
             // 
@@ -2102,31 +1978,22 @@ namespace Evidenta_Membrilor
             // 
             // acte_cult_ordinare_biserica
             // 
-            this.acte_cult_ordinare_biserica.Location = new System.Drawing.Point(397, 162);
+            this.acte_cult_ordinare_biserica.Location = new System.Drawing.Point(348, 162);
             this.acte_cult_ordinare_biserica.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.acte_cult_ordinare_biserica.MaxLength = 100;
             this.acte_cult_ordinare_biserica.Name = "acte_cult_ordinare_biserica";
-            this.acte_cult_ordinare_biserica.Size = new System.Drawing.Size(175, 29);
+            this.acte_cult_ordinare_biserica.Size = new System.Drawing.Size(224, 29);
             this.acte_cult_ordinare_biserica.TabIndex = 22;
             // 
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(326, 163);
+            this.label37.Location = new System.Drawing.Point(278, 164);
             this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(66, 21);
             this.label37.TabIndex = 21;
             this.label37.Text = "Biserica:";
-            // 
-            // acte_cult_ordinare_data
-            // 
-            this.acte_cult_ordinare_data.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.acte_cult_ordinare_data.Location = new System.Drawing.Point(200, 161);
-            this.acte_cult_ordinare_data.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.acte_cult_ordinare_data.Name = "acte_cult_ordinare_data";
-            this.acte_cult_ordinare_data.Size = new System.Drawing.Size(115, 29);
-            this.acte_cult_ordinare_data.TabIndex = 20;
             // 
             // acte_cult_casatoria_pastor
             // 
@@ -2149,31 +2016,22 @@ namespace Evidenta_Membrilor
             // 
             // acte_cult_casatoria_biserica
             // 
-            this.acte_cult_casatoria_biserica.Location = new System.Drawing.Point(397, 119);
+            this.acte_cult_casatoria_biserica.Location = new System.Drawing.Point(348, 119);
             this.acte_cult_casatoria_biserica.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.acte_cult_casatoria_biserica.MaxLength = 100;
             this.acte_cult_casatoria_biserica.Name = "acte_cult_casatoria_biserica";
-            this.acte_cult_casatoria_biserica.Size = new System.Drawing.Size(175, 29);
+            this.acte_cult_casatoria_biserica.Size = new System.Drawing.Size(224, 29);
             this.acte_cult_casatoria_biserica.TabIndex = 16;
             // 
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(326, 121);
+            this.label34.Location = new System.Drawing.Point(278, 122);
             this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(66, 21);
             this.label34.TabIndex = 15;
             this.label34.Text = "Biserica:";
-            // 
-            // acte_cult_casatoria_data
-            // 
-            this.acte_cult_casatoria_data.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.acte_cult_casatoria_data.Location = new System.Drawing.Point(200, 119);
-            this.acte_cult_casatoria_data.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.acte_cult_casatoria_data.Name = "acte_cult_casatoria_data";
-            this.acte_cult_casatoria_data.Size = new System.Drawing.Size(115, 29);
-            this.acte_cult_casatoria_data.TabIndex = 14;
             // 
             // acte_cult_botez_pastor
             // 
@@ -2196,31 +2054,22 @@ namespace Evidenta_Membrilor
             // 
             // acte_cult_botez_biserica
             // 
-            this.acte_cult_botez_biserica.Location = new System.Drawing.Point(397, 79);
+            this.acte_cult_botez_biserica.Location = new System.Drawing.Point(348, 79);
             this.acte_cult_botez_biserica.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.acte_cult_botez_biserica.MaxLength = 100;
             this.acte_cult_botez_biserica.Name = "acte_cult_botez_biserica";
-            this.acte_cult_botez_biserica.Size = new System.Drawing.Size(175, 29);
+            this.acte_cult_botez_biserica.Size = new System.Drawing.Size(224, 29);
             this.acte_cult_botez_biserica.TabIndex = 10;
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(326, 79);
+            this.label31.Location = new System.Drawing.Point(278, 80);
             this.label31.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(66, 21);
             this.label31.TabIndex = 9;
             this.label31.Text = "Biserica:";
-            // 
-            // acte_cult_botez_data
-            // 
-            this.acte_cult_botez_data.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.acte_cult_botez_data.Location = new System.Drawing.Point(200, 77);
-            this.acte_cult_botez_data.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.acte_cult_botez_data.Name = "acte_cult_botez_data";
-            this.acte_cult_botez_data.Size = new System.Drawing.Size(115, 29);
-            this.acte_cult_botez_data.TabIndex = 8;
             // 
             // acte_cult_binec_pastor
             // 
@@ -2243,36 +2092,57 @@ namespace Evidenta_Membrilor
             // 
             // acte_cult_binec_biserica
             // 
-            this.acte_cult_binec_biserica.Location = new System.Drawing.Point(397, 35);
+            this.acte_cult_binec_biserica.Location = new System.Drawing.Point(348, 35);
             this.acte_cult_binec_biserica.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.acte_cult_binec_biserica.MaxLength = 100;
             this.acte_cult_binec_biserica.Name = "acte_cult_binec_biserica";
-            this.acte_cult_binec_biserica.Size = new System.Drawing.Size(175, 29);
+            this.acte_cult_binec_biserica.Size = new System.Drawing.Size(224, 29);
             this.acte_cult_binec_biserica.TabIndex = 4;
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(326, 37);
+            this.label29.Location = new System.Drawing.Point(278, 38);
             this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(66, 21);
             this.label29.TabIndex = 3;
             this.label29.Text = "Biserica:";
             // 
-            // acte_cult_binec_data
-            // 
-            this.acte_cult_binec_data.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.acte_cult_binec_data.Location = new System.Drawing.Point(200, 35);
-            this.acte_cult_binec_data.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.acte_cult_binec_data.Name = "acte_cult_binec_data";
-            this.acte_cult_binec_data.Size = new System.Drawing.Size(115, 29);
-            this.acte_cult_binec_data.TabIndex = 2;
-            this.acte_cult_binec_data.Value = new System.DateTime(2017, 1, 16, 0, 0, 0, 0);
-            // 
             // groupBox5
             // 
             this.groupBox5.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.groupBox5.Controls.Add(this.familia_copil10_data_botez);
+            this.groupBox5.Controls.Add(this.familia_copil10_data_binec);
+            this.groupBox5.Controls.Add(this.familia_copil10_data_nasterii);
+            this.groupBox5.Controls.Add(this.familia_copil9_data_botez);
+            this.groupBox5.Controls.Add(this.familia_copil9_data_binec);
+            this.groupBox5.Controls.Add(this.familia_copil9_data_nasterii);
+            this.groupBox5.Controls.Add(this.familia_copil8_data_botez);
+            this.groupBox5.Controls.Add(this.familia_copil8_data_binec);
+            this.groupBox5.Controls.Add(this.familia_copil8_data_nasterii);
+            this.groupBox5.Controls.Add(this.familia_copil7_data_botez);
+            this.groupBox5.Controls.Add(this.familia_copil7_data_binec);
+            this.groupBox5.Controls.Add(this.familia_copil7_data_nasterii);
+            this.groupBox5.Controls.Add(this.familia_copil6_data_botez);
+            this.groupBox5.Controls.Add(this.familia_copil6_data_binec);
+            this.groupBox5.Controls.Add(this.familia_copil6_data_nasterii);
+            this.groupBox5.Controls.Add(this.familia_copil5_data_botez);
+            this.groupBox5.Controls.Add(this.familia_copil5_data_binec);
+            this.groupBox5.Controls.Add(this.familia_copil5_data_nasterii);
+            this.groupBox5.Controls.Add(this.familia_copil4_data_botez);
+            this.groupBox5.Controls.Add(this.familia_copil4_data_binec);
+            this.groupBox5.Controls.Add(this.familia_copil4_data_nasterii);
+            this.groupBox5.Controls.Add(this.familia_copil3_data_botez);
+            this.groupBox5.Controls.Add(this.familia_copil3_data_binec);
+            this.groupBox5.Controls.Add(this.familia_copil3_data_nasterii);
+            this.groupBox5.Controls.Add(this.familia_copil2_data_botez);
+            this.groupBox5.Controls.Add(this.familia_copil2_data_binec);
+            this.groupBox5.Controls.Add(this.familia_copil2_data_nasterii);
+            this.groupBox5.Controls.Add(this.familia_copil1_data_botez);
+            this.groupBox5.Controls.Add(this.familia_copil1_data_binec);
+            this.groupBox5.Controls.Add(this.familia_copil1_data_nasterii);
+            this.groupBox5.Controls.Add(this.familia_sotul_data_nasterii);
             this.groupBox5.Controls.Add(this.familia_copil10);
             this.groupBox5.Controls.Add(this.familia_copil9);
             this.groupBox5.Controls.Add(this.familia_copil8);
@@ -2287,63 +2157,33 @@ namespace Evidenta_Membrilor
             this.groupBox5.Controls.Add(this.label35);
             this.groupBox5.Controls.Add(this.familia_copil10_nr_fisa);
             this.groupBox5.Controls.Add(this.familia_copil10_stare_civila);
-            this.groupBox5.Controls.Add(this.familia_copil10_data_botez);
-            this.groupBox5.Controls.Add(this.familia_copil10_data_binec);
-            this.groupBox5.Controls.Add(this.familia_copil10_data_nasterii);
             this.groupBox5.Controls.Add(this.familia_copil10_nume);
             this.groupBox5.Controls.Add(this.familia_copil9_nr_fisa);
             this.groupBox5.Controls.Add(this.familia_copil9_stare_civila);
-            this.groupBox5.Controls.Add(this.familia_copil9_data_botez);
-            this.groupBox5.Controls.Add(this.familia_copil9_data_binec);
-            this.groupBox5.Controls.Add(this.familia_copil9_data_nasterii);
             this.groupBox5.Controls.Add(this.familia_copil9_nume);
             this.groupBox5.Controls.Add(this.familia_copil8_nr_fisa);
             this.groupBox5.Controls.Add(this.familia_copil8_stare_civila);
-            this.groupBox5.Controls.Add(this.familia_copil8_data_botez);
-            this.groupBox5.Controls.Add(this.familia_copil8_data_binec);
-            this.groupBox5.Controls.Add(this.familia_copil8_data_nasterii);
             this.groupBox5.Controls.Add(this.familia_copil8_nume);
             this.groupBox5.Controls.Add(this.familia_copil7_nr_fisa);
             this.groupBox5.Controls.Add(this.familia_copil7_stare_civila);
-            this.groupBox5.Controls.Add(this.familia_copil7_data_botez);
-            this.groupBox5.Controls.Add(this.familia_copil7_data_binec);
-            this.groupBox5.Controls.Add(this.familia_copil7_data_nasterii);
             this.groupBox5.Controls.Add(this.familia_copil7_nume);
             this.groupBox5.Controls.Add(this.familia_copil6_nr_fisa);
             this.groupBox5.Controls.Add(this.familia_copil6_stare_civila);
-            this.groupBox5.Controls.Add(this.familia_copil6_data_botez);
-            this.groupBox5.Controls.Add(this.familia_copil6_data_binec);
-            this.groupBox5.Controls.Add(this.familia_copil6_data_nasterii);
             this.groupBox5.Controls.Add(this.familia_copil6_nume);
             this.groupBox5.Controls.Add(this.familia_copil5_nr_fisa);
             this.groupBox5.Controls.Add(this.familia_copil5_stare_civila);
-            this.groupBox5.Controls.Add(this.familia_copil5_data_botez);
-            this.groupBox5.Controls.Add(this.familia_copil5_data_binec);
-            this.groupBox5.Controls.Add(this.familia_copil5_data_nasterii);
             this.groupBox5.Controls.Add(this.familia_copil5_nume);
             this.groupBox5.Controls.Add(this.familia_copil4_nr_fisa);
             this.groupBox5.Controls.Add(this.familia_copil4_stare_civila);
-            this.groupBox5.Controls.Add(this.familia_copil4_data_botez);
-            this.groupBox5.Controls.Add(this.familia_copil4_data_binec);
-            this.groupBox5.Controls.Add(this.familia_copil4_data_nasterii);
             this.groupBox5.Controls.Add(this.familia_copil4_nume);
             this.groupBox5.Controls.Add(this.familia_copil3_nr_fisa);
             this.groupBox5.Controls.Add(this.familia_copil3_stare_civila);
-            this.groupBox5.Controls.Add(this.familia_copil3_data_botez);
-            this.groupBox5.Controls.Add(this.familia_copil3_data_binec);
-            this.groupBox5.Controls.Add(this.familia_copil3_data_nasterii);
             this.groupBox5.Controls.Add(this.familia_copil3_nume);
             this.groupBox5.Controls.Add(this.familia_copil2_nr_fisa);
             this.groupBox5.Controls.Add(this.familia_copil2_stare_civila);
-            this.groupBox5.Controls.Add(this.familia_copil2_data_botez);
-            this.groupBox5.Controls.Add(this.familia_copil2_data_binec);
-            this.groupBox5.Controls.Add(this.familia_copil2_data_nasterii);
             this.groupBox5.Controls.Add(this.familia_copil2_nume);
             this.groupBox5.Controls.Add(this.familia_copil1_nr_fisa);
             this.groupBox5.Controls.Add(this.familia_copil1_stare_civila);
-            this.groupBox5.Controls.Add(this.familia_copil1_data_botez);
-            this.groupBox5.Controls.Add(this.familia_copil1_data_binec);
-            this.groupBox5.Controls.Add(this.familia_copil1_data_nasterii);
             this.groupBox5.Controls.Add(this.label54);
             this.groupBox5.Controls.Add(this.label53);
             this.groupBox5.Controls.Add(this.label52);
@@ -2355,7 +2195,6 @@ namespace Evidenta_Membrilor
             this.groupBox5.Controls.Add(this.label46);
             this.groupBox5.Controls.Add(this.familia_sotul_localitate);
             this.groupBox5.Controls.Add(this.label45);
-            this.groupBox5.Controls.Add(this.familia_sotul_data_nasterii);
             this.groupBox5.Controls.Add(this.label44);
             this.groupBox5.Controls.Add(this.familia_sotul_numar_fisa);
             this.groupBox5.Controls.Add(this.label43);
@@ -2368,6 +2207,223 @@ namespace Evidenta_Membrilor
             this.groupBox5.TabIndex = 10;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Date privind familia:";
+            // 
+            // familia_copil10_data_botez
+            // 
+            this.familia_copil10_data_botez.Location = new System.Drawing.Point(569, 530);
+            this.familia_copil10_data_botez.Name = "familia_copil10_data_botez";
+            this.familia_copil10_data_botez.Size = new System.Drawing.Size(100, 29);
+            this.familia_copil10_data_botez.TabIndex = 129;
+            // 
+            // familia_copil10_data_binec
+            // 
+            this.familia_copil10_data_binec.Location = new System.Drawing.Point(451, 530);
+            this.familia_copil10_data_binec.Name = "familia_copil10_data_binec";
+            this.familia_copil10_data_binec.Size = new System.Drawing.Size(105, 29);
+            this.familia_copil10_data_binec.TabIndex = 128;
+            // 
+            // familia_copil10_data_nasterii
+            // 
+            this.familia_copil10_data_nasterii.Location = new System.Drawing.Point(330, 531);
+            this.familia_copil10_data_nasterii.Name = "familia_copil10_data_nasterii";
+            this.familia_copil10_data_nasterii.Size = new System.Drawing.Size(105, 29);
+            this.familia_copil10_data_nasterii.TabIndex = 127;
+            // 
+            // familia_copil9_data_botez
+            // 
+            this.familia_copil9_data_botez.Location = new System.Drawing.Point(569, 489);
+            this.familia_copil9_data_botez.Name = "familia_copil9_data_botez";
+            this.familia_copil9_data_botez.Size = new System.Drawing.Size(100, 29);
+            this.familia_copil9_data_botez.TabIndex = 126;
+            // 
+            // familia_copil9_data_binec
+            // 
+            this.familia_copil9_data_binec.Location = new System.Drawing.Point(451, 488);
+            this.familia_copil9_data_binec.Name = "familia_copil9_data_binec";
+            this.familia_copil9_data_binec.Size = new System.Drawing.Size(105, 29);
+            this.familia_copil9_data_binec.TabIndex = 125;
+            // 
+            // familia_copil9_data_nasterii
+            // 
+            this.familia_copil9_data_nasterii.Location = new System.Drawing.Point(330, 488);
+            this.familia_copil9_data_nasterii.Name = "familia_copil9_data_nasterii";
+            this.familia_copil9_data_nasterii.Size = new System.Drawing.Size(104, 29);
+            this.familia_copil9_data_nasterii.TabIndex = 124;
+            // 
+            // familia_copil8_data_botez
+            // 
+            this.familia_copil8_data_botez.Location = new System.Drawing.Point(569, 448);
+            this.familia_copil8_data_botez.Name = "familia_copil8_data_botez";
+            this.familia_copil8_data_botez.Size = new System.Drawing.Size(100, 29);
+            this.familia_copil8_data_botez.TabIndex = 123;
+            // 
+            // familia_copil8_data_binec
+            // 
+            this.familia_copil8_data_binec.Location = new System.Drawing.Point(451, 447);
+            this.familia_copil8_data_binec.Name = "familia_copil8_data_binec";
+            this.familia_copil8_data_binec.Size = new System.Drawing.Size(105, 29);
+            this.familia_copil8_data_binec.TabIndex = 122;
+            // 
+            // familia_copil8_data_nasterii
+            // 
+            this.familia_copil8_data_nasterii.Location = new System.Drawing.Point(330, 447);
+            this.familia_copil8_data_nasterii.Name = "familia_copil8_data_nasterii";
+            this.familia_copil8_data_nasterii.Size = new System.Drawing.Size(105, 29);
+            this.familia_copil8_data_nasterii.TabIndex = 121;
+            // 
+            // familia_copil7_data_botez
+            // 
+            this.familia_copil7_data_botez.Location = new System.Drawing.Point(569, 404);
+            this.familia_copil7_data_botez.Name = "familia_copil7_data_botez";
+            this.familia_copil7_data_botez.Size = new System.Drawing.Size(100, 29);
+            this.familia_copil7_data_botez.TabIndex = 120;
+            // 
+            // familia_copil7_data_binec
+            // 
+            this.familia_copil7_data_binec.Location = new System.Drawing.Point(451, 404);
+            this.familia_copil7_data_binec.Name = "familia_copil7_data_binec";
+            this.familia_copil7_data_binec.Size = new System.Drawing.Size(105, 29);
+            this.familia_copil7_data_binec.TabIndex = 119;
+            // 
+            // familia_copil7_data_nasterii
+            // 
+            this.familia_copil7_data_nasterii.Location = new System.Drawing.Point(330, 404);
+            this.familia_copil7_data_nasterii.Name = "familia_copil7_data_nasterii";
+            this.familia_copil7_data_nasterii.Size = new System.Drawing.Size(104, 29);
+            this.familia_copil7_data_nasterii.TabIndex = 118;
+            // 
+            // familia_copil6_data_botez
+            // 
+            this.familia_copil6_data_botez.Location = new System.Drawing.Point(569, 362);
+            this.familia_copil6_data_botez.Name = "familia_copil6_data_botez";
+            this.familia_copil6_data_botez.Size = new System.Drawing.Size(100, 29);
+            this.familia_copil6_data_botez.TabIndex = 117;
+            // 
+            // familia_copil6_data_binec
+            // 
+            this.familia_copil6_data_binec.Location = new System.Drawing.Point(451, 364);
+            this.familia_copil6_data_binec.Name = "familia_copil6_data_binec";
+            this.familia_copil6_data_binec.Size = new System.Drawing.Size(105, 29);
+            this.familia_copil6_data_binec.TabIndex = 116;
+            // 
+            // familia_copil6_data_nasterii
+            // 
+            this.familia_copil6_data_nasterii.Location = new System.Drawing.Point(330, 365);
+            this.familia_copil6_data_nasterii.Name = "familia_copil6_data_nasterii";
+            this.familia_copil6_data_nasterii.Size = new System.Drawing.Size(105, 29);
+            this.familia_copil6_data_nasterii.TabIndex = 115;
+            // 
+            // familia_copil5_data_botez
+            // 
+            this.familia_copil5_data_botez.Location = new System.Drawing.Point(569, 321);
+            this.familia_copil5_data_botez.Name = "familia_copil5_data_botez";
+            this.familia_copil5_data_botez.Size = new System.Drawing.Size(100, 29);
+            this.familia_copil5_data_botez.TabIndex = 114;
+            // 
+            // familia_copil5_data_binec
+            // 
+            this.familia_copil5_data_binec.Location = new System.Drawing.Point(451, 320);
+            this.familia_copil5_data_binec.Name = "familia_copil5_data_binec";
+            this.familia_copil5_data_binec.Size = new System.Drawing.Size(105, 29);
+            this.familia_copil5_data_binec.TabIndex = 113;
+            // 
+            // familia_copil5_data_nasterii
+            // 
+            this.familia_copil5_data_nasterii.Location = new System.Drawing.Point(330, 320);
+            this.familia_copil5_data_nasterii.Name = "familia_copil5_data_nasterii";
+            this.familia_copil5_data_nasterii.Size = new System.Drawing.Size(104, 29);
+            this.familia_copil5_data_nasterii.TabIndex = 112;
+            // 
+            // familia_copil4_data_botez
+            // 
+            this.familia_copil4_data_botez.Location = new System.Drawing.Point(569, 279);
+            this.familia_copil4_data_botez.Name = "familia_copil4_data_botez";
+            this.familia_copil4_data_botez.Size = new System.Drawing.Size(100, 29);
+            this.familia_copil4_data_botez.TabIndex = 111;
+            // 
+            // familia_copil4_data_binec
+            // 
+            this.familia_copil4_data_binec.Location = new System.Drawing.Point(451, 280);
+            this.familia_copil4_data_binec.Name = "familia_copil4_data_binec";
+            this.familia_copil4_data_binec.Size = new System.Drawing.Size(105, 29);
+            this.familia_copil4_data_binec.TabIndex = 110;
+            // 
+            // familia_copil4_data_nasterii
+            // 
+            this.familia_copil4_data_nasterii.Location = new System.Drawing.Point(330, 279);
+            this.familia_copil4_data_nasterii.Name = "familia_copil4_data_nasterii";
+            this.familia_copil4_data_nasterii.Size = new System.Drawing.Size(104, 29);
+            this.familia_copil4_data_nasterii.TabIndex = 109;
+            // 
+            // familia_copil3_data_botez
+            // 
+            this.familia_copil3_data_botez.Location = new System.Drawing.Point(569, 236);
+            this.familia_copil3_data_botez.Name = "familia_copil3_data_botez";
+            this.familia_copil3_data_botez.Size = new System.Drawing.Size(100, 29);
+            this.familia_copil3_data_botez.TabIndex = 108;
+            // 
+            // familia_copil3_data_binec
+            // 
+            this.familia_copil3_data_binec.Location = new System.Drawing.Point(451, 236);
+            this.familia_copil3_data_binec.Name = "familia_copil3_data_binec";
+            this.familia_copil3_data_binec.Size = new System.Drawing.Size(105, 29);
+            this.familia_copil3_data_binec.TabIndex = 107;
+            // 
+            // familia_copil3_data_nasterii
+            // 
+            this.familia_copil3_data_nasterii.Location = new System.Drawing.Point(330, 237);
+            this.familia_copil3_data_nasterii.Name = "familia_copil3_data_nasterii";
+            this.familia_copil3_data_nasterii.Size = new System.Drawing.Size(104, 29);
+            this.familia_copil3_data_nasterii.TabIndex = 106;
+            // 
+            // familia_copil2_data_botez
+            // 
+            this.familia_copil2_data_botez.Location = new System.Drawing.Point(569, 195);
+            this.familia_copil2_data_botez.Name = "familia_copil2_data_botez";
+            this.familia_copil2_data_botez.Size = new System.Drawing.Size(100, 29);
+            this.familia_copil2_data_botez.TabIndex = 105;
+            // 
+            // familia_copil2_data_binec
+            // 
+            this.familia_copil2_data_binec.Location = new System.Drawing.Point(451, 194);
+            this.familia_copil2_data_binec.Name = "familia_copil2_data_binec";
+            this.familia_copil2_data_binec.Size = new System.Drawing.Size(105, 29);
+            this.familia_copil2_data_binec.TabIndex = 104;
+            // 
+            // familia_copil2_data_nasterii
+            // 
+            this.familia_copil2_data_nasterii.Location = new System.Drawing.Point(330, 194);
+            this.familia_copil2_data_nasterii.Name = "familia_copil2_data_nasterii";
+            this.familia_copil2_data_nasterii.Size = new System.Drawing.Size(105, 29);
+            this.familia_copil2_data_nasterii.TabIndex = 103;
+            // 
+            // familia_copil1_data_botez
+            // 
+            this.familia_copil1_data_botez.Location = new System.Drawing.Point(569, 154);
+            this.familia_copil1_data_botez.Name = "familia_copil1_data_botez";
+            this.familia_copil1_data_botez.Size = new System.Drawing.Size(100, 29);
+            this.familia_copil1_data_botez.TabIndex = 102;
+            // 
+            // familia_copil1_data_binec
+            // 
+            this.familia_copil1_data_binec.Location = new System.Drawing.Point(451, 153);
+            this.familia_copil1_data_binec.Name = "familia_copil1_data_binec";
+            this.familia_copil1_data_binec.Size = new System.Drawing.Size(105, 29);
+            this.familia_copil1_data_binec.TabIndex = 101;
+            // 
+            // familia_copil1_data_nasterii
+            // 
+            this.familia_copil1_data_nasterii.Location = new System.Drawing.Point(330, 153);
+            this.familia_copil1_data_nasterii.Name = "familia_copil1_data_nasterii";
+            this.familia_copil1_data_nasterii.Size = new System.Drawing.Size(105, 29);
+            this.familia_copil1_data_nasterii.TabIndex = 100;
+            // 
+            // familia_sotul_data_nasterii
+            // 
+            this.familia_sotul_data_nasterii.Location = new System.Drawing.Point(126, 79);
+            this.familia_sotul_data_nasterii.Name = "familia_sotul_data_nasterii";
+            this.familia_sotul_data_nasterii.Size = new System.Drawing.Size(133, 29);
+            this.familia_sotul_data_nasterii.TabIndex = 99;
             // 
             // familia_copil10
             // 
@@ -2513,8 +2569,9 @@ namespace Evidenta_Membrilor
             this.familia_copil10_stare_civila.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.familia_copil10_stare_civila.FormattingEnabled = true;
             this.familia_copil10_stare_civila.Items.AddRange(new object[] {
-            "Casatorit(ă)",
+            "Nu se aplică",
             "Necasatorit(ă)",
+            "Casatorit(ă)",
             "Vaduv(ă)",
             "Altele"});
             this.familia_copil10_stare_civila.Location = new System.Drawing.Point(690, 531);
@@ -2522,33 +2579,6 @@ namespace Evidenta_Membrilor
             this.familia_copil10_stare_civila.Name = "familia_copil10_stare_civila";
             this.familia_copil10_stare_civila.Size = new System.Drawing.Size(121, 29);
             this.familia_copil10_stare_civila.TabIndex = 85;
-            // 
-            // familia_copil10_data_botez
-            // 
-            this.familia_copil10_data_botez.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil10_data_botez.Location = new System.Drawing.Point(569, 531);
-            this.familia_copil10_data_botez.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil10_data_botez.Name = "familia_copil10_data_botez";
-            this.familia_copil10_data_botez.Size = new System.Drawing.Size(111, 29);
-            this.familia_copil10_data_botez.TabIndex = 84;
-            // 
-            // familia_copil10_data_binec
-            // 
-            this.familia_copil10_data_binec.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil10_data_binec.Location = new System.Drawing.Point(451, 531);
-            this.familia_copil10_data_binec.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil10_data_binec.Name = "familia_copil10_data_binec";
-            this.familia_copil10_data_binec.Size = new System.Drawing.Size(110, 29);
-            this.familia_copil10_data_binec.TabIndex = 83;
-            // 
-            // familia_copil10_data_nasterii
-            // 
-            this.familia_copil10_data_nasterii.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil10_data_nasterii.Location = new System.Drawing.Point(334, 531);
-            this.familia_copil10_data_nasterii.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil10_data_nasterii.Name = "familia_copil10_data_nasterii";
-            this.familia_copil10_data_nasterii.Size = new System.Drawing.Size(105, 29);
-            this.familia_copil10_data_nasterii.TabIndex = 82;
             // 
             // familia_copil10_nume
             // 
@@ -2573,8 +2603,9 @@ namespace Evidenta_Membrilor
             this.familia_copil9_stare_civila.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.familia_copil9_stare_civila.FormattingEnabled = true;
             this.familia_copil9_stare_civila.Items.AddRange(new object[] {
-            "Casatorit(ă)",
+            "Nu se aplică",
             "Necasatorit(ă)",
+            "Casatorit(ă)",
             "Vaduv(ă)",
             "Altele"});
             this.familia_copil9_stare_civila.Location = new System.Drawing.Point(690, 489);
@@ -2582,33 +2613,6 @@ namespace Evidenta_Membrilor
             this.familia_copil9_stare_civila.Name = "familia_copil9_stare_civila";
             this.familia_copil9_stare_civila.Size = new System.Drawing.Size(121, 29);
             this.familia_copil9_stare_civila.TabIndex = 78;
-            // 
-            // familia_copil9_data_botez
-            // 
-            this.familia_copil9_data_botez.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil9_data_botez.Location = new System.Drawing.Point(569, 489);
-            this.familia_copil9_data_botez.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil9_data_botez.Name = "familia_copil9_data_botez";
-            this.familia_copil9_data_botez.Size = new System.Drawing.Size(111, 29);
-            this.familia_copil9_data_botez.TabIndex = 77;
-            // 
-            // familia_copil9_data_binec
-            // 
-            this.familia_copil9_data_binec.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil9_data_binec.Location = new System.Drawing.Point(451, 489);
-            this.familia_copil9_data_binec.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil9_data_binec.Name = "familia_copil9_data_binec";
-            this.familia_copil9_data_binec.Size = new System.Drawing.Size(110, 29);
-            this.familia_copil9_data_binec.TabIndex = 76;
-            // 
-            // familia_copil9_data_nasterii
-            // 
-            this.familia_copil9_data_nasterii.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil9_data_nasterii.Location = new System.Drawing.Point(334, 489);
-            this.familia_copil9_data_nasterii.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil9_data_nasterii.Name = "familia_copil9_data_nasterii";
-            this.familia_copil9_data_nasterii.Size = new System.Drawing.Size(105, 29);
-            this.familia_copil9_data_nasterii.TabIndex = 75;
             // 
             // familia_copil9_nume
             // 
@@ -2633,8 +2637,9 @@ namespace Evidenta_Membrilor
             this.familia_copil8_stare_civila.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.familia_copil8_stare_civila.FormattingEnabled = true;
             this.familia_copil8_stare_civila.Items.AddRange(new object[] {
-            "Casatorit(ă)",
+            "Nu se aplică",
             "Necasatorit(ă)",
+            "Casatorit(ă)",
             "Vaduv(ă)",
             "Altele"});
             this.familia_copil8_stare_civila.Location = new System.Drawing.Point(690, 447);
@@ -2642,33 +2647,6 @@ namespace Evidenta_Membrilor
             this.familia_copil8_stare_civila.Name = "familia_copil8_stare_civila";
             this.familia_copil8_stare_civila.Size = new System.Drawing.Size(121, 29);
             this.familia_copil8_stare_civila.TabIndex = 71;
-            // 
-            // familia_copil8_data_botez
-            // 
-            this.familia_copil8_data_botez.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil8_data_botez.Location = new System.Drawing.Point(569, 447);
-            this.familia_copil8_data_botez.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil8_data_botez.Name = "familia_copil8_data_botez";
-            this.familia_copil8_data_botez.Size = new System.Drawing.Size(111, 29);
-            this.familia_copil8_data_botez.TabIndex = 70;
-            // 
-            // familia_copil8_data_binec
-            // 
-            this.familia_copil8_data_binec.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil8_data_binec.Location = new System.Drawing.Point(451, 447);
-            this.familia_copil8_data_binec.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil8_data_binec.Name = "familia_copil8_data_binec";
-            this.familia_copil8_data_binec.Size = new System.Drawing.Size(110, 29);
-            this.familia_copil8_data_binec.TabIndex = 69;
-            // 
-            // familia_copil8_data_nasterii
-            // 
-            this.familia_copil8_data_nasterii.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil8_data_nasterii.Location = new System.Drawing.Point(334, 447);
-            this.familia_copil8_data_nasterii.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil8_data_nasterii.Name = "familia_copil8_data_nasterii";
-            this.familia_copil8_data_nasterii.Size = new System.Drawing.Size(105, 29);
-            this.familia_copil8_data_nasterii.TabIndex = 68;
             // 
             // familia_copil8_nume
             // 
@@ -2693,8 +2671,9 @@ namespace Evidenta_Membrilor
             this.familia_copil7_stare_civila.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.familia_copil7_stare_civila.FormattingEnabled = true;
             this.familia_copil7_stare_civila.Items.AddRange(new object[] {
-            "Casatorit(ă)",
+            "Nu se aplică",
             "Necasatorit(ă)",
+            "Casatorit(ă)",
             "Vaduv(ă)",
             "Altele"});
             this.familia_copil7_stare_civila.Location = new System.Drawing.Point(690, 405);
@@ -2702,33 +2681,6 @@ namespace Evidenta_Membrilor
             this.familia_copil7_stare_civila.Name = "familia_copil7_stare_civila";
             this.familia_copil7_stare_civila.Size = new System.Drawing.Size(121, 29);
             this.familia_copil7_stare_civila.TabIndex = 64;
-            // 
-            // familia_copil7_data_botez
-            // 
-            this.familia_copil7_data_botez.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil7_data_botez.Location = new System.Drawing.Point(569, 405);
-            this.familia_copil7_data_botez.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil7_data_botez.Name = "familia_copil7_data_botez";
-            this.familia_copil7_data_botez.Size = new System.Drawing.Size(111, 29);
-            this.familia_copil7_data_botez.TabIndex = 63;
-            // 
-            // familia_copil7_data_binec
-            // 
-            this.familia_copil7_data_binec.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil7_data_binec.Location = new System.Drawing.Point(451, 405);
-            this.familia_copil7_data_binec.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil7_data_binec.Name = "familia_copil7_data_binec";
-            this.familia_copil7_data_binec.Size = new System.Drawing.Size(110, 29);
-            this.familia_copil7_data_binec.TabIndex = 62;
-            // 
-            // familia_copil7_data_nasterii
-            // 
-            this.familia_copil7_data_nasterii.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil7_data_nasterii.Location = new System.Drawing.Point(334, 405);
-            this.familia_copil7_data_nasterii.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil7_data_nasterii.Name = "familia_copil7_data_nasterii";
-            this.familia_copil7_data_nasterii.Size = new System.Drawing.Size(105, 29);
-            this.familia_copil7_data_nasterii.TabIndex = 61;
             // 
             // familia_copil7_nume
             // 
@@ -2753,8 +2705,9 @@ namespace Evidenta_Membrilor
             this.familia_copil6_stare_civila.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.familia_copil6_stare_civila.FormattingEnabled = true;
             this.familia_copil6_stare_civila.Items.AddRange(new object[] {
-            "Casatorit(ă)",
+            "Nu se aplică",
             "Necasatorit(ă)",
+            "Casatorit(ă)",
             "Vaduv(ă)",
             "Altele"});
             this.familia_copil6_stare_civila.Location = new System.Drawing.Point(690, 363);
@@ -2762,33 +2715,6 @@ namespace Evidenta_Membrilor
             this.familia_copil6_stare_civila.Name = "familia_copil6_stare_civila";
             this.familia_copil6_stare_civila.Size = new System.Drawing.Size(121, 29);
             this.familia_copil6_stare_civila.TabIndex = 57;
-            // 
-            // familia_copil6_data_botez
-            // 
-            this.familia_copil6_data_botez.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil6_data_botez.Location = new System.Drawing.Point(569, 363);
-            this.familia_copil6_data_botez.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil6_data_botez.Name = "familia_copil6_data_botez";
-            this.familia_copil6_data_botez.Size = new System.Drawing.Size(111, 29);
-            this.familia_copil6_data_botez.TabIndex = 56;
-            // 
-            // familia_copil6_data_binec
-            // 
-            this.familia_copil6_data_binec.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil6_data_binec.Location = new System.Drawing.Point(451, 363);
-            this.familia_copil6_data_binec.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil6_data_binec.Name = "familia_copil6_data_binec";
-            this.familia_copil6_data_binec.Size = new System.Drawing.Size(110, 29);
-            this.familia_copil6_data_binec.TabIndex = 55;
-            // 
-            // familia_copil6_data_nasterii
-            // 
-            this.familia_copil6_data_nasterii.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil6_data_nasterii.Location = new System.Drawing.Point(334, 363);
-            this.familia_copil6_data_nasterii.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil6_data_nasterii.Name = "familia_copil6_data_nasterii";
-            this.familia_copil6_data_nasterii.Size = new System.Drawing.Size(105, 29);
-            this.familia_copil6_data_nasterii.TabIndex = 54;
             // 
             // familia_copil6_nume
             // 
@@ -2813,8 +2739,9 @@ namespace Evidenta_Membrilor
             this.familia_copil5_stare_civila.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.familia_copil5_stare_civila.FormattingEnabled = true;
             this.familia_copil5_stare_civila.Items.AddRange(new object[] {
-            "Casatorit(ă)",
+            "Nu se aplică",
             "Necasatorit(ă)",
+            "Casatorit(ă)",
             "Vaduv(ă)",
             "Altele"});
             this.familia_copil5_stare_civila.Location = new System.Drawing.Point(690, 321);
@@ -2822,33 +2749,6 @@ namespace Evidenta_Membrilor
             this.familia_copil5_stare_civila.Name = "familia_copil5_stare_civila";
             this.familia_copil5_stare_civila.Size = new System.Drawing.Size(121, 29);
             this.familia_copil5_stare_civila.TabIndex = 50;
-            // 
-            // familia_copil5_data_botez
-            // 
-            this.familia_copil5_data_botez.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil5_data_botez.Location = new System.Drawing.Point(569, 321);
-            this.familia_copil5_data_botez.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil5_data_botez.Name = "familia_copil5_data_botez";
-            this.familia_copil5_data_botez.Size = new System.Drawing.Size(111, 29);
-            this.familia_copil5_data_botez.TabIndex = 49;
-            // 
-            // familia_copil5_data_binec
-            // 
-            this.familia_copil5_data_binec.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil5_data_binec.Location = new System.Drawing.Point(451, 321);
-            this.familia_copil5_data_binec.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil5_data_binec.Name = "familia_copil5_data_binec";
-            this.familia_copil5_data_binec.Size = new System.Drawing.Size(110, 29);
-            this.familia_copil5_data_binec.TabIndex = 48;
-            // 
-            // familia_copil5_data_nasterii
-            // 
-            this.familia_copil5_data_nasterii.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil5_data_nasterii.Location = new System.Drawing.Point(334, 321);
-            this.familia_copil5_data_nasterii.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil5_data_nasterii.Name = "familia_copil5_data_nasterii";
-            this.familia_copil5_data_nasterii.Size = new System.Drawing.Size(105, 29);
-            this.familia_copil5_data_nasterii.TabIndex = 47;
             // 
             // familia_copil5_nume
             // 
@@ -2873,8 +2773,9 @@ namespace Evidenta_Membrilor
             this.familia_copil4_stare_civila.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.familia_copil4_stare_civila.FormattingEnabled = true;
             this.familia_copil4_stare_civila.Items.AddRange(new object[] {
-            "Casatorit(ă)",
+            "Nu se aplică",
             "Necasatorit(ă)",
+            "Casatorit(ă)",
             "Vaduv(ă)",
             "Altele"});
             this.familia_copil4_stare_civila.Location = new System.Drawing.Point(690, 279);
@@ -2882,33 +2783,6 @@ namespace Evidenta_Membrilor
             this.familia_copil4_stare_civila.Name = "familia_copil4_stare_civila";
             this.familia_copil4_stare_civila.Size = new System.Drawing.Size(121, 29);
             this.familia_copil4_stare_civila.TabIndex = 43;
-            // 
-            // familia_copil4_data_botez
-            // 
-            this.familia_copil4_data_botez.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil4_data_botez.Location = new System.Drawing.Point(569, 279);
-            this.familia_copil4_data_botez.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil4_data_botez.Name = "familia_copil4_data_botez";
-            this.familia_copil4_data_botez.Size = new System.Drawing.Size(111, 29);
-            this.familia_copil4_data_botez.TabIndex = 42;
-            // 
-            // familia_copil4_data_binec
-            // 
-            this.familia_copil4_data_binec.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil4_data_binec.Location = new System.Drawing.Point(451, 279);
-            this.familia_copil4_data_binec.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil4_data_binec.Name = "familia_copil4_data_binec";
-            this.familia_copil4_data_binec.Size = new System.Drawing.Size(110, 29);
-            this.familia_copil4_data_binec.TabIndex = 41;
-            // 
-            // familia_copil4_data_nasterii
-            // 
-            this.familia_copil4_data_nasterii.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil4_data_nasterii.Location = new System.Drawing.Point(334, 279);
-            this.familia_copil4_data_nasterii.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil4_data_nasterii.Name = "familia_copil4_data_nasterii";
-            this.familia_copil4_data_nasterii.Size = new System.Drawing.Size(105, 29);
-            this.familia_copil4_data_nasterii.TabIndex = 40;
             // 
             // familia_copil4_nume
             // 
@@ -2933,8 +2807,9 @@ namespace Evidenta_Membrilor
             this.familia_copil3_stare_civila.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.familia_copil3_stare_civila.FormattingEnabled = true;
             this.familia_copil3_stare_civila.Items.AddRange(new object[] {
-            "Casatorit(ă)",
+            "Nu se aplică",
             "Necasatorit(ă)",
+            "Casatorit(ă)",
             "Vaduv(ă)",
             "Altele"});
             this.familia_copil3_stare_civila.Location = new System.Drawing.Point(690, 237);
@@ -2942,33 +2817,6 @@ namespace Evidenta_Membrilor
             this.familia_copil3_stare_civila.Name = "familia_copil3_stare_civila";
             this.familia_copil3_stare_civila.Size = new System.Drawing.Size(121, 29);
             this.familia_copil3_stare_civila.TabIndex = 36;
-            // 
-            // familia_copil3_data_botez
-            // 
-            this.familia_copil3_data_botez.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil3_data_botez.Location = new System.Drawing.Point(569, 237);
-            this.familia_copil3_data_botez.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil3_data_botez.Name = "familia_copil3_data_botez";
-            this.familia_copil3_data_botez.Size = new System.Drawing.Size(111, 29);
-            this.familia_copil3_data_botez.TabIndex = 35;
-            // 
-            // familia_copil3_data_binec
-            // 
-            this.familia_copil3_data_binec.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil3_data_binec.Location = new System.Drawing.Point(451, 237);
-            this.familia_copil3_data_binec.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil3_data_binec.Name = "familia_copil3_data_binec";
-            this.familia_copil3_data_binec.Size = new System.Drawing.Size(110, 29);
-            this.familia_copil3_data_binec.TabIndex = 34;
-            // 
-            // familia_copil3_data_nasterii
-            // 
-            this.familia_copil3_data_nasterii.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil3_data_nasterii.Location = new System.Drawing.Point(334, 237);
-            this.familia_copil3_data_nasterii.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil3_data_nasterii.Name = "familia_copil3_data_nasterii";
-            this.familia_copil3_data_nasterii.Size = new System.Drawing.Size(105, 29);
-            this.familia_copil3_data_nasterii.TabIndex = 33;
             // 
             // familia_copil3_nume
             // 
@@ -2993,8 +2841,9 @@ namespace Evidenta_Membrilor
             this.familia_copil2_stare_civila.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.familia_copil2_stare_civila.FormattingEnabled = true;
             this.familia_copil2_stare_civila.Items.AddRange(new object[] {
-            "Casatorit(ă)",
+            "Nu se aplică",
             "Necasatorit(ă)",
+            "Casatorit(ă)",
             "Vaduv(ă)",
             "Altele"});
             this.familia_copil2_stare_civila.Location = new System.Drawing.Point(690, 195);
@@ -3002,33 +2851,6 @@ namespace Evidenta_Membrilor
             this.familia_copil2_stare_civila.Name = "familia_copil2_stare_civila";
             this.familia_copil2_stare_civila.Size = new System.Drawing.Size(121, 29);
             this.familia_copil2_stare_civila.TabIndex = 29;
-            // 
-            // familia_copil2_data_botez
-            // 
-            this.familia_copil2_data_botez.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil2_data_botez.Location = new System.Drawing.Point(569, 195);
-            this.familia_copil2_data_botez.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil2_data_botez.Name = "familia_copil2_data_botez";
-            this.familia_copil2_data_botez.Size = new System.Drawing.Size(111, 29);
-            this.familia_copil2_data_botez.TabIndex = 28;
-            // 
-            // familia_copil2_data_binec
-            // 
-            this.familia_copil2_data_binec.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil2_data_binec.Location = new System.Drawing.Point(451, 195);
-            this.familia_copil2_data_binec.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil2_data_binec.Name = "familia_copil2_data_binec";
-            this.familia_copil2_data_binec.Size = new System.Drawing.Size(110, 29);
-            this.familia_copil2_data_binec.TabIndex = 27;
-            // 
-            // familia_copil2_data_nasterii
-            // 
-            this.familia_copil2_data_nasterii.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil2_data_nasterii.Location = new System.Drawing.Point(334, 195);
-            this.familia_copil2_data_nasterii.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil2_data_nasterii.Name = "familia_copil2_data_nasterii";
-            this.familia_copil2_data_nasterii.Size = new System.Drawing.Size(105, 29);
-            this.familia_copil2_data_nasterii.TabIndex = 26;
             // 
             // familia_copil2_nume
             // 
@@ -3053,8 +2875,9 @@ namespace Evidenta_Membrilor
             this.familia_copil1_stare_civila.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.familia_copil1_stare_civila.FormattingEnabled = true;
             this.familia_copil1_stare_civila.Items.AddRange(new object[] {
-            "Casatorit(ă)",
+            "Nu se aplică",
             "Necasatorit(ă)",
+            "Casatorit(ă)",
             "Vaduv(ă)",
             "Altele"});
             this.familia_copil1_stare_civila.Location = new System.Drawing.Point(690, 153);
@@ -3062,33 +2885,6 @@ namespace Evidenta_Membrilor
             this.familia_copil1_stare_civila.Name = "familia_copil1_stare_civila";
             this.familia_copil1_stare_civila.Size = new System.Drawing.Size(121, 29);
             this.familia_copil1_stare_civila.TabIndex = 22;
-            // 
-            // familia_copil1_data_botez
-            // 
-            this.familia_copil1_data_botez.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil1_data_botez.Location = new System.Drawing.Point(569, 153);
-            this.familia_copil1_data_botez.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil1_data_botez.Name = "familia_copil1_data_botez";
-            this.familia_copil1_data_botez.Size = new System.Drawing.Size(111, 29);
-            this.familia_copil1_data_botez.TabIndex = 21;
-            // 
-            // familia_copil1_data_binec
-            // 
-            this.familia_copil1_data_binec.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil1_data_binec.Location = new System.Drawing.Point(451, 153);
-            this.familia_copil1_data_binec.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil1_data_binec.Name = "familia_copil1_data_binec";
-            this.familia_copil1_data_binec.Size = new System.Drawing.Size(110, 29);
-            this.familia_copil1_data_binec.TabIndex = 20;
-            // 
-            // familia_copil1_data_nasterii
-            // 
-            this.familia_copil1_data_nasterii.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_copil1_data_nasterii.Location = new System.Drawing.Point(334, 153);
-            this.familia_copil1_data_nasterii.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_copil1_data_nasterii.Name = "familia_copil1_data_nasterii";
-            this.familia_copil1_data_nasterii.Size = new System.Drawing.Size(105, 29);
-            this.familia_copil1_data_nasterii.TabIndex = 19;
             // 
             // label54
             // 
@@ -3197,15 +2993,6 @@ namespace Evidenta_Membrilor
             this.label45.TabIndex = 6;
             this.label45.Text = "Loc:";
             // 
-            // familia_sotul_data_nasterii
-            // 
-            this.familia_sotul_data_nasterii.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.familia_sotul_data_nasterii.Location = new System.Drawing.Point(126, 79);
-            this.familia_sotul_data_nasterii.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.familia_sotul_data_nasterii.Name = "familia_sotul_data_nasterii";
-            this.familia_sotul_data_nasterii.Size = new System.Drawing.Size(129, 29);
-            this.familia_sotul_data_nasterii.TabIndex = 5;
-            // 
             // label44
             // 
             this.label44.AutoSize = true;
@@ -3247,9 +3034,9 @@ namespace Evidenta_Membrilor
             // groupBox6
             // 
             this.groupBox6.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.groupBox6.Controls.Add(this.iesire_evidenta_data);
             this.groupBox6.Controls.Add(this.iesire_evidenta_expl);
             this.groupBox6.Controls.Add(this.label32);
-            this.groupBox6.Controls.Add(this.iesire_evidenta_data);
             this.groupBox6.Controls.Add(this.label27);
             this.groupBox6.Controls.Add(this.label12);
             this.groupBox6.Controls.Add(this.iesire_evidenta_motiv);
@@ -3262,33 +3049,31 @@ namespace Evidenta_Membrilor
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Date privind ieşirea din evidenţa membrilor bisericii:";
             // 
+            // iesire_evidenta_data
+            // 
+            this.iesire_evidenta_data.Location = new System.Drawing.Point(359, 37);
+            this.iesire_evidenta_data.Name = "iesire_evidenta_data";
+            this.iesire_evidenta_data.Size = new System.Drawing.Size(110, 29);
+            this.iesire_evidenta_data.TabIndex = 6;
+            // 
             // iesire_evidenta_expl
             // 
-            this.iesire_evidenta_expl.Location = new System.Drawing.Point(615, 37);
+            this.iesire_evidenta_expl.Location = new System.Drawing.Point(569, 37);
             this.iesire_evidenta_expl.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
             this.iesire_evidenta_expl.MaxLength = 100;
             this.iesire_evidenta_expl.Name = "iesire_evidenta_expl";
-            this.iesire_evidenta_expl.Size = new System.Drawing.Size(264, 29);
+            this.iesire_evidenta_expl.Size = new System.Drawing.Size(310, 29);
             this.iesire_evidenta_expl.TabIndex = 5;
             // 
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(537, 41);
+            this.label32.Location = new System.Drawing.Point(491, 41);
             this.label32.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(73, 21);
             this.label32.TabIndex = 4;
             this.label32.Text = "Explicaţii:";
-            // 
-            // iesire_evidenta_data
-            // 
-            this.iesire_evidenta_data.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.iesire_evidenta_data.Location = new System.Drawing.Point(367, 37);
-            this.iesire_evidenta_data.Margin = new System.Windows.Forms.Padding(2, 5, 2, 5);
-            this.iesire_evidenta_data.Name = "iesire_evidenta_data";
-            this.iesire_evidenta_data.Size = new System.Drawing.Size(155, 29);
-            this.iesire_evidenta_data.TabIndex = 3;
             // 
             // label27
             // 
@@ -3315,6 +3100,7 @@ namespace Evidenta_Membrilor
             this.iesire_evidenta_motiv.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.iesire_evidenta_motiv.FormattingEnabled = true;
             this.iesire_evidenta_motiv.Items.AddRange(new object[] {
+            "Nu se aplică",
             "Transfer",
             "Deces",
             "La cerere",
@@ -3478,7 +3264,7 @@ namespace Evidenta_Membrilor
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(135, 15);
             this.label42.TabIndex = 25;
-            this.label42.Text = "Evidenta Membrilor v1.0";
+            this.label42.Text = "Evidenta Membrilor v1.1";
             // 
             // label47
             // 

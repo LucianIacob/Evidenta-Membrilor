@@ -6,4 +6,3 @@ C:\Users\liacob\Desktop\Evidenta Membrilor\obj\Release\Evidenta_Membrilor.Proper
 C:\Users\liacob\Desktop\Evidenta Membrilor\obj\Release\Evidenta Membrilor.csproj.GenerateResource.Cache
 C:\Users\liacob\Desktop\Evidenta Membrilor\obj\Release\Evidenta Membrilor.exe
 C:\Users\liacob\Desktop\Evidenta Membrilor\obj\Release\Evidenta Membrilor.pdb
-C:\Users\liacob\Desktop\Evidenta Membrilor\obj\Release\Evidenta Membrilor.csprojResolveAssemblyReference.cache
